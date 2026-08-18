@@ -1,0 +1,22 @@
+# MagilityOne
+
+> MagilityOne is een Nederlandse weekplanner voor persoonlijk leiderschap, gebouwd op het rollen- en kwadrantenwerk van Stephen Covey. Gebruikers plannen hun week vanuit hun rollen (zoals partner, ondernemer, ouder) en weekdoelen, naast hun bestaande Google- of Outlook-agenda. Een AI-coach geeft één observatie per week en is volledig uitzetbaar.
+
+## Kernfeiten
+
+- Product: webapp op https://app.magilityone.com/
+- Bedrijf: Magility B.V., Nederland, KvK 95661298, opgericht door Mark ter Voert
+- Methode: weekritme in vier stappen (reflecteer, kies, plan, evalueer), gebaseerd op het gedachtegoed van Stephen Covey; onafhankelijk product, niet verbonden aan FranklinCovey Co.
+- Prijzen: vier weken volledig gratis zonder creditcard; daarna gratis blijven plannen, of een abonnement van EUR 14,95 per maand of EUR 119 per jaar voor de AI-coach, agendakoppelingen en volledige geschiedenis
+- Privacy: gegevens worden niet gebruikt om AI-modellen te trainen, export en verwijdering met één klik, AI-functies volledig uitschakelbaar, geen advertenties en geen tracking
+- Talen: Nederlands en Engels
+- Doelgroep: professionals, ondernemers en iedereen die de week wil plannen vanuit wat echt belangrijk is in plaats van een takenlijst
+
+## Wat MagilityOne anders maakt dan een takenlijst
+
+Takenlijsten houden bij wat er nog moet. MagilityOne helpt kiezen wat je niet doet: per rol kies je wat er deze week echt toe doet, en die doelen krijgen als eerste een plek in de agenda. Er zijn geen streaks en geen dagelijkse check-ins; het ritme is wekelijks.
+
+## Pagina's
+
+- [Homepage](https://magilityone.com/): uitleg van het product en de methode
+- [Probeer gratis](https://app.magilityone.com/start): proefronde zonder account

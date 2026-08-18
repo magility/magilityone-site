@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MagilityOne | De weekplanner voor wat echt belangrijk is</title>
+<meta name="description" content="MagilityOne is de weekplanner die begint bij wie je bent, niet bij wat er moet. Plan je week vanuit je rollen en doelen, op basis van de methode van Stephen Covey. Vier weken alles gratis, zonder creditcard.">
+<link rel="canonical" href="https://magilityone.com/">
+<meta name="theme-color" content="#F9F8F4">
+<meta property="og:title" content="MagilityOne | De weekplanner voor wat echt belangrijk is">
+<meta property="og:description" content="Geen to-dolijst, maar een systeem voor persoonlijk leiderschap. Eén weekronde van twintig minuten, en de rest van je week loopt anders.">
+<meta property="og:url" content="https://magilityone.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="MagilityOne">
+<meta property="og:image" content="https://magilityone.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://magilityone.com/assets/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://magilityone.com/#org",
+      "name": "Magility B.V.",
+      "url": "https://magilityone.com/",
+      "identifier": "KvK 95661298",
+      "founder": {"@id": "https://magilityone.com/#mark"},
+      "sameAs": ["https://www.magility.nl/", "https://app.magilityone.com/"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://magilityone.com/#mark",
+      "name": "Mark ter Voert",
+      "jobTitle": "Oprichter",
+      "worksFor": {"@id": "https://magilityone.com/#org"},
+      "image": "https://magilityone.com/assets/mark-ter-voert.jpg",
+      "description": "Agile coach en facilitator. Bouwde MagilityOne om zijn eigen week te leren kiezen."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "MagilityOne",
+      "operatingSystem": "Web",
+      "applicationCategory": "LifestyleApplication",
+      "url": "https://app.magilityone.com/",
+      "description": "MagilityOne is een weekplanner op basis van de methode van Stephen Covey. Je plant je week vanuit je rollen en doelen, met een AI-coach die meedenkt.",
+      "offers": [
+        {"@type": "Offer", "price": "0", "priceCurrency": "EUR", "description": "Gratis versie: plannen blijft altijd gratis"},
+        {"@type": "Offer", "price": "14.95", "priceCurrency": "EUR", "description": "Maandabonnement"},
+        {"@type": "Offer", "price": "119", "priceCurrency": "EUR", "description": "Jaarabonnement, gefactureerd als 119 euro per jaar"}
+      ],
+      "publisher": {"@id": "https://magilityone.com/#org"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Kost dit me niet gewoon twintig minuten extra per week?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Die twintig minuten zijn de reden dat de rest van je week anders loopt."}},
+        {"@type": "Question", "name": "Wat als ik een week oversla?", "acceptedAnswer": {"@type": "Answer", "text": "Dan sla je een week over. Er zijn geen streaks en geen dagelijkse check-in. De volgende zondag pak je het weer op."}},
+        {"@type": "Question", "name": "Ik gebruik al een takenlijst. Waarom dit erbij?", "acceptedAnswer": {"@type": "Answer", "text": "Een takenlijst houdt bij wat er nog moet. MagilityOne helpt je kiezen wat je niet doet, en zet de rest in je agenda."}},
+        {"@type": "Question", "name": "Wat gebeurt er met mijn agendagegevens?", "acceptedAnswer": {"@type": "Answer", "text": "Die blijven van jou en worden niet gebruikt om modellen te trainen. Je kunt alles exporteren of verwijderen, en de AI helemaal uitzetten."}},
+        {"@type": "Question", "name": "Word ik automatisch afgeschreven na de proefperiode?", "acceptedAnswer": {"@type": "Answer", "text": "Nee. Je hoeft geen creditcard op te geven om te beginnen, en na vier weken zakt je account vanzelf terug naar het gratis plan."}},
+        {"@type": "Question", "name": "Voor wie is dit niets?", "acceptedAnswer": {"@type": "Answer", "text": "Voor wie een projectsysteem zoekt, uren wil registreren, elke dag punten wil verdienen, of hoopt dat een app het kiezen overneemt. Dat doet hij niet. Jij kiest, hij bewaakt."}}
+      ]
+    }
+  ]
+}
+</script>
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}.mock{opacity:1!important;transform:none!important}.role-row,.goal-row,.blk.mine,.float-card,.mock-caption{opacity:1!important;transform:none!important}.rv-card{position:static;opacity:1!important;transform:none!important;margin-bottom:16px}.asm{height:auto!important}.asm-sticky{position:static!important}</style></noscript>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/instrument-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Instrument Sans, lokaal gehost (geen Google Fonts, zelfde belofte als in de app) */
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-normal.woff2) format('woff2');}
+@font-face{font-family:'Instrument Sans';font-style:italic;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-italic.woff2) format('woff2');}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-500-normal.woff2) format('woff2');}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-600-normal.woff2) format('woff2');}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:700;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-700-normal.woff2) format('woff2');}
+</style>
+<style>
+/* ============================================================
+   MAGILITY ONE · MARKETINGSITE · magilityone.com
+   Tokens 1-op-1 uit de app (src/index.css)
+   ============================================================ */
+:root{
+  --canvas:#F9F8F4;
+  --surface:#FFFFFF;
+  --sunken:#F4F2EC;
+  --ink-900:#1F1F1F; --ink-800:#2A2926; --ink-700:#3D3B37;
+  --ink-600:#54524D; --ink-500:#6B6963; --ink-400:#8A8880;
+  --ink-300:#B3B0A8; --ink-200:#D6D3CA; --ink-100:#E8E5DD; --ink-50:#F4F2EC;
+  --oker-50:#FDF8E7; --oker-100:#FAEDC0; --oker-200:#F5DC8C;
+  --oker-300:#F8CD5F; --oker-400:#E9B23C; --oker-500:#C98F1E;
+  --oker-700:#7A520C;
+  --groei:#0F7B5A; --ondernemer:#3A4CB8; --partner:#B4571A;
+  --prof:#A32D5B; --paars:#5B3FA8; --teal:#1D6F8C;
+  --focus:#3A4CB8;
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --shadow-soft:0 2px 8px rgba(31,31,31,.05),0 12px 40px rgba(31,31,31,.07);
+  --shadow-big:0 4px 16px rgba(31,31,31,.06),0 32px 80px rgba(31,31,31,.14);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:clip;}
+@supports not (overflow-x:clip){html{overflow-x:hidden;}}
+body{
+  font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:var(--canvas); color:var(--ink-900);
+  font-size:16px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--oker-200); color:var(--ink-900);}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+img{max-width:100%;display:block;}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px;}
+@media(max-width:640px){.wrap{padding:0 20px;}}
+
+/* ---------- Glas, exact het recept van de app ---------- */
+.glass{
+  background:rgba(255,255,255,.62);
+  backdrop-filter:blur(28px) saturate(180%);
+  -webkit-backdrop-filter:blur(28px) saturate(180%);
+  box-shadow:0 8px 32px rgba(0,0,0,.14),0 1px 2px rgba(0,0,0,.06),
+    inset 0 1px 0 rgba(255,255,255,.55),inset 0 0 0 .5px rgba(0,0,0,.06);
+}
+.glass-dark{
+  background:rgba(31,31,31,.55);
+  backdrop-filter:blur(28px) saturate(180%);
+  -webkit-backdrop-filter:blur(28px) saturate(180%);
+  box-shadow:0 8px 32px rgba(0,0,0,.42),0 1px 2px rgba(0,0,0,.24),
+    inset 0 1px 0 rgba(255,255,255,.10),inset 0 0 0 .5px rgba(255,255,255,.08);
+}
+@supports not (backdrop-filter:blur(1px)){
+  .glass{background:rgba(255,255,255,.96);}
+  .glass-dark{background:rgba(31,31,31,.96);}
+}
+
+/* ---------- Orbs ---------- */
+.orb{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;will-change:transform;}
+@keyframes orb1{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(50px,-40px) scale(1.06)}66%{transform:translate(-30px,60px) scale(.94)}}
+@keyframes orb2{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(-45px,25px) scale(1.09)}66%{transform:translate(35px,-55px) scale(.91)}}
+@keyframes orb3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(20px,-30px) scale(1.04)}}
+.orb1{animation:orb1 18s ease-in-out infinite;}
+.orb2{animation:orb2 24s ease-in-out infinite;}
+.orb3{animation:orb3 14s ease-in-out infinite;}
+
+/* ---------- Navigatie: de glazen pil ---------- */
+.nav{
+  position:fixed;top:16px;left:50%;transform:translateX(-50%);
+  z-index:100;border-radius:999px;
+  display:flex;align-items:center;gap:4px;
+  padding:8px 8px 8px 20px;
+  transition:transform .5s var(--ease), box-shadow .5s var(--ease);
+  max-width:calc(100vw - 32px);
+}
+.nav .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:-.01em;margin-right:14px;white-space:nowrap;}
+.nav .logo .dot{width:26px;height:26px;border-radius:8px;background:var(--ink-900);position:relative;flex-shrink:0;}
+.nav .logo .dot::after{content:'';position:absolute;inset:0;margin:auto;width:10px;height:10px;border-radius:3px;background:var(--oker-300);}
+.nav .links{display:flex;gap:2px;}
+.nav .links a{
+  font-size:13.5px;font-weight:500;color:var(--ink-600);
+  padding:8px 14px;border-radius:999px;transition:all .18s var(--ease);white-space:nowrap;
+}
+.nav .links a:hover{background:rgba(31,31,31,.06);color:var(--ink-900);}
+.nav .cta{
+  font-size:13.5px;font-weight:600;color:#fff;background:var(--ink-900);
+  padding:9px 18px;border-radius:999px;margin-left:8px;white-space:nowrap;
+  transition:transform .18s var(--ease),box-shadow .18s var(--ease);
+  display:inline-block;
+}
+.nav .cta:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(31,31,31,.25);}
+.nav.hidden-up{transform:translateX(-50%) translateY(-90px);}
+@media(max-width:860px){.nav .links{display:none;}}
+
+/* ---------- Knoppen ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-weight:600;border-radius:999px;
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease),background .2s var(--ease);
+  position:relative;overflow:hidden;
+}
+.btn-primary{
+  background:var(--ink-900);color:#fff;font-size:16px;padding:16px 32px;
+  box-shadow:0 2px 6px rgba(31,31,31,.2),0 12px 28px rgba(31,31,31,.18);
+}
+.btn-primary:hover{transform:translateY(-2px) scale(1.015);box-shadow:0 4px 10px rgba(31,31,31,.22),0 20px 44px rgba(31,31,31,.26);}
+.btn-primary .arr{transition:transform .2s var(--ease);}
+.btn-primary:hover .arr{transform:translateX(4px);}
+.btn-glass{
+  font-size:16px;padding:15px 28px;color:var(--ink-900);border-radius:999px;
+}
+.btn-glass:hover{transform:translateY(-2px);}
+.btn-oker{
+  background:var(--oker-300);color:var(--ink-900);font-size:16px;padding:16px 32px;
+  box-shadow:0 2px 6px rgba(201,143,30,.25),0 12px 28px rgba(201,143,30,.28);
+}
+.btn-oker:hover{transform:translateY(-2px) scale(1.015);box-shadow:0 6px 14px rgba(201,143,30,.3),0 20px 44px rgba(201,143,30,.34);}
+.btn-primary::after,.btn-oker::after{
+  content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);
+  transform:skewX(-20deg);transition:left .6s var(--ease);
+}
+.btn-primary:hover::after,.btn-oker:hover::after{left:130%;}
+
+/* ---------- Reveal-systeem ---------- */
+[data-reveal]{opacity:0;will-change:transform,opacity;}
+[data-reveal="up"]{transform:translateY(36px);}
+[data-reveal="left"]{transform:translateX(-44px);}
+[data-reveal="right"]{transform:translateX(44px);}
+[data-reveal="zoom"]{transform:scale(.94) translateY(20px);}
+[data-reveal="3d"]{transform:perspective(1200px) rotateX(11deg) translateY(52px) scale(.96);transform-origin:center bottom;}
+[data-reveal="3d-left"]{transform:perspective(1200px) rotateY(-10deg) translateX(-44px);transform-origin:left center;}
+[data-reveal="3d-right"]{transform:perspective(1200px) rotateY(10deg) translateX(44px);transform-origin:right center;}
+[data-reveal].in{
+  opacity:1;
+  transform:none;
+  transition:opacity .75s var(--ease),transform .75s var(--ease);
+  transition-delay:var(--d,0s);
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;}
+  [data-reveal]{opacity:1;transform:none;}
+  html{scroll-behavior:auto;}
+}
+
+section[id],header[id]{scroll-margin-top:92px;}
+.btn:active,.scan-chip:active,.p-btn:active,.nav .cta:active{transform:scale(.97);transition-duration:.08s;}
+a:focus-visible,button:focus-visible,input:focus-visible{
+  outline:2px solid var(--focus)!important;outline-offset:2px;border-radius:6px;
+}
+.scan a:focus-visible,.scan button:focus-visible,.finale a:focus-visible{outline-color:var(--oker-300)!important;}
+
+/* ---------- Typografie ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--oker-700);
+}
+.eyebrow::before{content:'';width:22px;height:2px;background:var(--oker-400);border-radius:2px;}
+h1,h2,h3{letter-spacing:-.03em;line-height:1.06;text-wrap:balance;}
+h2{font-size:clamp(34px,4.6vw,58px);font-weight:700;}
+.sub{font-size:clamp(17px,1.6vw,20px);color:var(--ink-600);line-height:1.6;max-width:620px;text-wrap:pretty;}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative;min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;
+  padding:150px 0 0;overflow:visible;
+}
+@media(max-width:640px){.hero{padding-top:118px;}}
+.hero-bg{position:absolute;inset:0;overflow:hidden;z-index:0;}
+.hero .orb.o1{width:560px;height:560px;background:rgba(248,205,95,.4);top:-160px;left:-140px;}
+.hero .orb.o2{width:480px;height:480px;background:rgba(58,76,184,.14);top:60px;right:-160px;}
+.hero .orb.o3{width:420px;height:420px;background:rgba(15,123,90,.13);bottom:-80px;left:30%;}
+.hero-grid-lines{
+  position:absolute;inset:0;
+  background-image:linear-gradient(rgba(31,31,31,.032) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(31,31,31,.032) 1px,transparent 1px);
+  background-size:72px 72px;
+  mask-image:radial-gradient(ellipse 90% 70% at 50% 30%,black 30%,transparent 75%);
+  -webkit-mask-image:radial-gradient(ellipse 90% 70% at 50% 30%,black 30%,transparent 75%);
+}
+.hero-inner{position:relative;z-index:2;text-align:center;max-width:1060px;padding:0 24px;}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:9px;
+  border-radius:999px;padding:8px 18px;font-size:13.5px;font-weight:600;color:var(--ink-700);
+  margin-bottom:34px;
+}
+.hero-badge .pulse{width:8px;height:8px;border-radius:50%;background:var(--groei);position:relative;}
+.hero-badge .pulse::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(15,123,90,.4);animation:pulseRing 2.2s var(--ease) infinite;}
+@keyframes pulseRing{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.5);opacity:0}}
+.hero h1{
+  font-size:clamp(44px,7.2vw,96px);font-weight:700;color:var(--ink-900);
+}
+.hero h1 .line{display:block;overflow:hidden;padding-bottom:.12em;margin-bottom:-.12em;}
+.hero h1 .w{display:inline-block;transform:translateY(112%) rotate(2deg);animation:wordUp .9s var(--ease) forwards;animation-delay:var(--wd);}
+@keyframes wordUp{to{transform:translateY(0) rotate(0);}}
+.hero h1 em{
+  font-style:normal;position:relative;white-space:nowrap;
+}
+.hero h1 em .marker{
+  position:absolute;left:-1%;bottom:9%;width:102%;height:28%;
+  background:var(--oker-300);z-index:-1;border-radius:5px;
+  transform:scaleX(0) rotate(-.4deg);transform-origin:left;
+  animation:markerIn .65s var(--ease) forwards;animation-delay:1.15s;
+}
+@keyframes markerIn{to{transform:scaleX(1) rotate(-.4deg);}}
+.hero-sub{
+  margin:30px auto 0;max-width:640px;
+  font-size:clamp(17px,1.7vw,21px);color:var(--ink-600);line-height:1.6;text-wrap:pretty;
+  opacity:0;animation:fadeUp .9s var(--ease) forwards;animation-delay:.9s;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero-ctas{
+  display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap;
+  margin-top:38px;
+  opacity:0;animation:fadeUp .9s var(--ease) forwards;animation-delay:1.1s;
+}
+@media(max-width:480px){
+  .hero-ctas{flex-direction:column;gap:12px;}
+  .hero-ctas .btn{width:100%;max-width:340px;}
+}
+.hero-micro{
+  margin-top:18px;font-size:13.5px;color:var(--ink-500);
+  opacity:0;animation:fadeUp .9s var(--ease) forwards;animation-delay:1.3s;
+}
+.hero-micro b{color:var(--ink-700);font-weight:600;}
+
+/* ---------- Hero mockup: de week die zich opbouwt bij het scrollen ---------- */
+.asm{position:relative;height:300vh;width:100%;z-index:2;}
+@media(max-width:640px){.asm{height:240vh;}}
+.asm-sticky{
+  position:sticky;top:0;min-height:100vh;
+  display:flex;flex-direction:column;justify-content:center;
+}
+.hero-stage{
+  position:relative;z-index:2;width:100%;max-width:1240px;margin:0 auto;
+  padding:0 24px;perspective:1600px;
+}
+/* de spraakballon van de coach, goud zoals overal waar de coach werkt */
+.coach-bub{
+  position:absolute;top:-30px;right:4%;z-index:6;
+  display:flex;align-items:flex-start;gap:11px;max-width:400px;
+  background:var(--oker-50);border:1.5px solid var(--oker-200);
+  border-radius:18px 18px 18px 4px;padding:15px 19px;
+  box-shadow:0 4px 14px rgba(201,143,30,.16),0 18px 44px rgba(31,31,31,.14);
+  font-size:15px;line-height:1.5;color:var(--ink-800);font-weight:500;
+}
+.coach-bub::after{
+  content:'';position:absolute;left:26px;bottom:-8px;width:14px;height:14px;
+  background:var(--oker-50);border-right:1.5px solid var(--oker-200);border-bottom:1.5px solid var(--oker-200);
+  transform:rotate(45deg);border-radius:0 0 4px 0;
+}
+.coach-bub .cb-ic{
+  width:30px;height:30px;border-radius:9px;background:var(--oker-300);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;font-size:15px;
+  box-shadow:0 2px 6px rgba(201,143,30,.3);
+}
+.coach-bub .cb-k{display:block;font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--oker-700);margin-bottom:2px;}
+.coach-bub b{color:var(--oker-700);font-weight:700;}
+.coach-bub.pop{animation:bubPop .45s var(--ease);}
+@keyframes bubPop{0%{transform:scale(.92) translateY(6px)}60%{transform:scale(1.03)}100%{transform:scale(1)}}
+@media(max-width:760px){.coach-bub{position:relative;top:0;right:0;margin:0 4px 14px;max-width:none;border-radius:18px 18px 18px 4px;}}
+.mock{
+  border-radius:22px;background:var(--surface);
+  border:1px solid var(--ink-100);
+  box-shadow:var(--shadow-big);
+  overflow:hidden;
+  transform-style:preserve-3d;
+  will-change:transform;
+}
+.mock-chrome{
+  display:flex;align-items:center;gap:7px;padding:13px 18px;
+  background:var(--sunken);border-bottom:1px solid var(--ink-100);
+}
+.mock-chrome i{width:10px;height:10px;border-radius:50%;background:var(--ink-200);}
+.mock-chrome i:first-child{background:var(--oker-300);}
+.mock-chrome .url{
+  flex:1;max-width:320px;margin:0 auto;background:var(--surface);
+  border-radius:8px;font-size:11px;color:var(--ink-400);padding:5px 12px;text-align:center;
+  border:1px solid var(--ink-100);
+}
+.mock-body{display:flex;min-height:580px;}
+.mock-side{
+  width:246px;flex-shrink:0;background:var(--sunken);
+  border-right:1px solid var(--ink-100);padding:18px 0;
+}
+.mock-side .lbl{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-400);padding:0 18px;margin-bottom:10px;}
+.role-row{
+  display:flex;align-items:center;gap:9px;padding:8px 18px;
+  font-size:13px;font-weight:600;color:var(--ink-700);
+  will-change:transform,opacity;
+}
+.role-row .rd{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.role-row .cnt{margin-left:auto;font-size:10.5px;font-weight:600;color:var(--ink-400);background:var(--surface);border:1px solid var(--ink-100);border-radius:99px;padding:1px 8px;}
+.mock-side .goals-lbl{margin-top:18px;padding-top:16px;border-top:1px solid var(--ink-100);}
+.goal-row{
+  display:flex;align-items:flex-start;gap:8px;padding:4px 18px 4px 36px;font-size:12px;color:var(--ink-600);
+  will-change:transform,opacity;
+}
+.goal-row .gd{width:6px;height:6px;border-radius:50%;margin-top:6px;flex-shrink:0;}
+.goal-row .gc{width:13px;height:13px;border-radius:4px;border:1.5px solid var(--ink-200);margin-top:2px;flex-shrink:0;background:var(--surface);}
+.mock-grid{flex:1;display:flex;flex-direction:column;}
+.mock-days{display:grid;grid-template-columns:46px repeat(5,1fr);background:var(--sunken);border-bottom:1px solid var(--ink-100);}
+.mock-days span{
+  text-align:center;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-400);padding:10px 0;border-left:1px solid rgba(31,31,31,.04);
+}
+.mock-days span:first-child{border-left:none;}
+.mock-days span.today{color:var(--oker-700);}
+.mock-days span i{font-style:normal;font-weight:500;opacity:.7;margin-left:4px;}
+/* het urenraster: blokken staan op hun echte tijd, zoals in de planner */
+.mock-time{flex:1;display:flex;}
+.tcol{
+  width:46px;flex-shrink:0;position:relative;border-right:1px solid var(--ink-50);
+  font-size:9px;color:var(--ink-400);font-variant-numeric:tabular-nums;
+}
+.tcol span{position:absolute;right:8px;transform:translateY(-50%);}
+.mock-cols{flex:1;display:grid;grid-template-columns:repeat(5,1fr);}
+.mock-col{
+  border-left:1px solid var(--ink-50);position:relative;
+  background-image:repeating-linear-gradient(to bottom,rgba(31,31,31,.035) 0,rgba(31,31,31,.035) 1px,transparent 1px,transparent calc(100%/14));
+}
+.mock-col:first-child{border-left:none;}
+.mock-col.today{background-color:rgba(253,248,231,.5);}
+.blk{
+  position:absolute;left:5px;right:5px;overflow:hidden;
+  border-radius:8px;padding:4px 8px;font-size:11px;font-weight:600;line-height:1.25;
+  border-left:3px solid var(--ink-300);background:var(--sunken);color:var(--ink-500);
+  transform-style:preserve-3d;box-shadow:0 1px 2px rgba(31,31,31,.05);
+}
+.blk small{display:block;font-size:9px;font-weight:500;opacity:.75;}
+.blk.ink{background:var(--ink-900);border-color:var(--ink-900);color:var(--cream);}
+.blk.ink small{color:rgba(249,248,244,.65);opacity:1;}
+.blk.mine{will-change:transform,opacity;}
+.blk.ext-anim{will-change:transform,opacity;}
+.mock-foot{
+  display:flex;align-items:center;gap:11px;background:var(--ink-900);padding:13px 20px;
+}
+.mock-foot .spark{width:15px;height:15px;flex-shrink:0;}
+.mock-foot p{font-size:13px;color:#fff;font-weight:500;}
+.mock-foot p b{color:var(--oker-300);font-weight:600;}
+.mock-caption{
+  text-align:center;font-size:13px;color:var(--ink-400);margin-top:22px;
+  opacity:0;transition:opacity .8s var(--ease);
+}
+.mock-caption.show{opacity:1;}
+@media(max-width:760px){
+  .mock-side{display:none;}
+  .mock-body{min-height:440px;}
+}
+@media(max-width:560px){
+  .mock-days{grid-template-columns:46px repeat(3,1fr);}
+  .mock-cols{grid-template-columns:repeat(3,1fr);}
+  .mock-days span:nth-child(n+5),.mock-col:nth-child(n+4){display:none;}
+}
+
+.float-card{
+  position:absolute;z-index:3;border-radius:16px;padding:13px 17px;
+  font-size:13px;font-weight:600;color:var(--ink-800);
+  display:flex;align-items:center;gap:10px;
+  opacity:0;transition:opacity .9s var(--ease),transform .9s var(--ease);
+  will-change:transform;
+}
+.float-card .ic{width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.float-card small{display:block;font-weight:500;font-size:11.5px;color:var(--ink-500);}
+.fc1{top:8%;left:-30px;}
+.fc2{top:38%;right:-40px;}
+.fc3{bottom:14%;left:-16px;}
+.float-card.show{opacity:1;}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.float-card.show{animation:floaty 6.5s ease-in-out infinite;}
+.fc2.show{animation-delay:1.2s;}
+.fc3.show{animation-delay:2.3s;}
+@media(max-width:1100px){.float-card{display:none;}}
+
+/* ---------- Marquee ---------- */
+.marquee-band{
+  position:relative;z-index:2;margin-top:90px;padding:26px 0;
+  width:100%;align-self:stretch;
+  border-top:1px solid var(--ink-100);border-bottom:1px solid var(--ink-100);
+  background:rgba(255,255,255,.5);overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,black 12%,black 88%,transparent);
+  mask-image:linear-gradient(90deg,transparent,black 12%,black 88%,transparent);
+}
+@media(max-width:640px){.marquee-band{margin-top:56px;padding:18px 0;}}
+.marquee{display:flex;gap:14px;width:max-content;animation:marq 36s linear infinite;}
+@keyframes marq{to{transform:translateX(-50%);}}
+.chip{
+  display:inline-flex;align-items:center;gap:9px;white-space:nowrap;
+  border-radius:999px;padding:9px 20px;font-size:14px;font-weight:600;
+  background:var(--surface);border:1px solid var(--ink-100);color:var(--ink-700);
+  box-shadow:0 1px 3px rgba(31,31,31,.05);
+}
+.chip i{width:9px;height:9px;border-radius:50%;}
+
+/* ============================================================
+   SECTIES
+   ============================================================ */
+section{position:relative;}
+.sec{padding:130px 0;}
+.sec-head{max-width:760px;margin-bottom:64px;}
+.sec-head h2{margin:18px 0 20px;}
+
+/* ---------- Herken je dit ---------- */
+.pain{background:var(--canvas);}
+.pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+@media(max-width:760px){.pain-grid{grid-template-columns:1fr;}}
+.pain-card{
+  background:var(--surface);border:1px solid var(--ink-100);border-radius:var(--r-lg);
+  padding:30px 32px;display:flex;gap:18px;align-items:flex-start;
+}
+.pain-card .n{
+  font-size:13px;font-weight:700;color:var(--ink-400);
+  border:1px solid var(--ink-100);border-radius:99px;width:32px;height:32px;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  font-variant-numeric:tabular-nums;
+}
+.pain-card p{font-size:17.5px;font-weight:600;color:var(--ink-800);line-height:1.45;text-wrap:pretty;}
+.pain-turn{
+  margin-top:52px;display:flex;align-items:center;gap:22px;
+  background:var(--ink-900);border-radius:var(--r-lg);padding:34px 40px;color:#fff;
+  flex-wrap:wrap;
+}
+.pain-turn .big{font-size:clamp(19px,2vw,24px);font-weight:600;letter-spacing:-.01em;flex:1;min-width:260px;text-wrap:pretty;}
+.pain-turn .big em{font-style:normal;color:var(--oker-300);}
+
+/* ---------- Voor wie ---------- */
+.wie-card{
+  background:var(--surface);border:1px solid var(--ink-100);border-radius:var(--r-lg);
+  padding:30px 32px;display:flex;flex-direction:column;
+}
+.wie-card h3{font-size:18px;font-weight:700;letter-spacing:-.015em;margin-bottom:8px;}
+.wie-card p{font-size:14.5px;color:var(--ink-600);text-wrap:pretty;flex:1;}
+.wie-card a{
+  display:inline-block;margin-top:16px;font-size:14px;font-weight:600;color:var(--ink-900);
+  border-bottom:2px solid var(--oker-300);align-self:flex-start;transition:border-color .2s;
+}
+.wie-card a:hover{border-color:var(--oker-500);}
+
+/* ---------- Het ritme ---------- */
+.ritme{background:var(--surface);border-top:1px solid var(--ink-100);border-bottom:1px solid var(--ink-100);}
+.ritme-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+@media(max-width:900px){.ritme-layout{grid-template-columns:1fr;gap:40px;}}
+.ritme-steps{display:flex;flex-direction:column;gap:8vh;padding:6vh 0 14vh;}
+.rstep{
+  border-left:3px solid var(--ink-100);padding:6px 0 6px 28px;
+  transition:border-color .45s var(--ease),opacity .45s var(--ease);
+  opacity:.5;
+}
+.rstep.active{border-color:var(--oker-400);opacity:1;}
+@media(max-width:900px){
+  .ritme-steps{gap:44px;padding:8px 0 0;}
+  .rstep{opacity:1;}
+  .rstep.active{border-color:var(--ink-100);}
+}
+.rstep .k{font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--oker-700);}
+.rstep h3{font-size:clamp(24px,2.6vw,32px);font-weight:700;margin:10px 0 12px;}
+.rstep p{font-size:16.5px;color:var(--ink-600);max-width:420px;text-wrap:pretty;}
+.ritme-visual{
+  position:sticky;top:max(96px,calc(50vh - 250px));height:500px;
+  display:flex;align-items:center;justify-content:center;
+  perspective:1200px;
+}
+@media(max-width:900px){.ritme-visual{display:none;}}
+.rv-card{
+  position:absolute;width:min(430px,90%);border-radius:var(--r-lg);
+  background:var(--canvas);border:1px solid var(--ink-100);
+  box-shadow:var(--shadow-big);padding:28px;
+  opacity:0;transform:translateY(22px) scale(.985);
+  transition:opacity .32s var(--ease),transform .32s var(--ease);
+  pointer-events:none;will-change:transform,opacity;
+}
+.rv-card.on{
+  opacity:1;transform:none;pointer-events:auto;
+  transition:opacity .45s var(--ease) .12s,transform .45s var(--ease) .12s;
+}
+.rv-card.off-up{opacity:0;transform:translateY(-22px) scale(.985);}
+.rv-card.rv-inline{
+  position:static;opacity:1;transform:none;transition:none;
+  display:none;margin-top:20px;width:100%;box-shadow:var(--shadow-soft);
+}
+@media(max-width:900px){.rv-card.rv-inline{display:block;}}
+.rv-card .cap{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-400);margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.rv-card .cap i{width:8px;height:8px;border-radius:50%;background:var(--oker-400);}
+.rv-line{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:11px;background:var(--surface);border:1px solid var(--ink-100);margin-bottom:9px;font-size:13.5px;font-weight:600;color:var(--ink-700);}
+.rv-line i{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.rv-line small{margin-left:auto;font-weight:500;color:var(--ink-400);font-size:12px;}
+.rv-line.ghost{opacity:.45;border-style:dashed;}
+.rv-check{width:20px;height:20px;border-radius:50%;background:var(--groei);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.rv-check svg{width:11px;height:11px;}
+.rv-coach{
+  margin-top:14px;background:var(--ink-900);border-radius:12px;padding:14px 16px;
+  font-size:13px;color:#fff;line-height:1.5;display:flex;gap:10px;
+}
+.rv-coach b{color:var(--oker-300);font-weight:600;}
+.ritme-loop{
+  margin-top:8px;text-align:center;font-size:15px;color:var(--ink-500);font-weight:500;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+}
+
+/* ---------- In de app ---------- */
+.proof{background:var(--canvas);overflow:hidden;}
+.proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+@media(max-width:980px){.proof-grid{grid-template-columns:1fr;max-width:560px;margin:0 auto;}}
+.proof-card{
+  border-radius:var(--r-lg);background:var(--surface);border:1px solid var(--ink-100);
+  overflow:hidden;display:flex;flex-direction:column;
+}
+.proof-vis{height:270px;position:relative;overflow:hidden;background:linear-gradient(160deg,var(--sunken),#EFEDE5);}
+.proof-txt{padding:26px 28px 30px;}
+.proof-txt h3{font-size:20px;font-weight:700;margin-bottom:10px;letter-spacing:-.015em;}
+.proof-txt p{font-size:15px;color:var(--ink-600);text-wrap:pretty;}
+.mini-agenda{position:absolute;inset:26px 26px 0;background:var(--surface);border-radius:14px 14px 0 0;border:1px solid var(--ink-100);border-bottom:none;box-shadow:0 -8px 40px rgba(31,31,31,.08);padding:14px;}
+.ma-row{display:flex;gap:8px;margin-bottom:8px;align-items:center;}
+.ma-time{font-size:9.5px;color:var(--ink-400);width:32px;flex-shrink:0;font-variant-numeric:tabular-nums;}
+.ma-block{flex:1;border-radius:7px;padding:5px 9px;font-size:10.5px;font-weight:600;border-left:3px solid;}
+.ma-block.ext{background:var(--sunken);border-color:var(--ink-300);color:var(--ink-500);}
+.phone{
+  position:absolute;left:50%;top:26px;transform:translateX(-50%);
+  width:200px;height:300px;background:var(--canvas);border-radius:28px 28px 0 0;
+  border:6px solid var(--ink-900);border-bottom:none;
+  box-shadow:0 20px 60px rgba(31,31,31,.25);overflow:hidden;
+}
+.phone .notch{width:64px;height:16px;background:var(--ink-900);border-radius:0 0 10px 10px;margin:0 auto;}
+.phone-day{padding:12px 12px 0;}
+.phone-day .pd-t{font-size:12px;font-weight:700;margin-bottom:8px;}
+.pd-item{border-radius:8px;padding:6px 8px;font-size:9.5px;font-weight:600;margin-bottom:6px;border-left:3px solid;}
+.phone-pill{
+  position:absolute;bottom:12px;left:50%;transform:translateX(-50%);
+  display:flex;gap:4px;border-radius:999px;padding:5px;
+  background:rgba(255,255,255,.62);
+  backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);
+  box-shadow:0 8px 32px rgba(0,0,0,.14),0 1px 2px rgba(0,0,0,.06),inset 0 1px 0 rgba(255,255,255,.55),inset 0 0 0 .5px rgba(0,0,0,.06);
+}
+.phone-pill span{
+  font-size:8.5px;font-weight:700;padding:5px 9px;border-radius:99px;color:var(--ink-500);
+}
+.phone-pill span.on{background:var(--ink-900);color:#fff;}
+.coach-bubbles{position:absolute;inset:26px;display:flex;flex-direction:column;gap:10px;justify-content:center;}
+.cb{
+  border-radius:14px;padding:12px 15px;font-size:12px;line-height:1.5;max-width:88%;
+  background:var(--surface);border:1px solid var(--ink-100);color:var(--ink-700);
+  box-shadow:0 4px 14px rgba(31,31,31,.06);
+}
+.cb.me{align-self:flex-end;background:var(--ink-900);color:#fff;border:none;}
+.cb b{color:var(--oker-700);}
+.cb.me b{color:var(--oker-300);}
+.cb .tag{display:inline-flex;align-items:center;gap:5px;font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-400);margin-bottom:5px;}
+
+/* ---------- Interactieve scan ---------- */
+.scan{background:var(--ink-900);color:#fff;overflow:hidden;}
+.scan .orb.s1{width:520px;height:520px;background:rgba(248,205,95,.13);top:-140px;right:-120px;}
+.scan .orb.s2{width:440px;height:440px;background:rgba(58,76,184,.2);bottom:-160px;left:-100px;}
+.scan .eyebrow{color:var(--oker-300);}
+.scan .eyebrow::before{background:var(--oker-300);}
+.scan h2{color:#fff;}
+.scan .sub{color:rgba(255,255,255,.65);}
+.scan-box{
+  position:relative;z-index:2;margin-top:56px;border-radius:24px;padding:44px;
+  background:rgba(255,255,255,.05);
+  backdrop-filter:blur(28px) saturate(160%);-webkit-backdrop-filter:blur(28px) saturate(160%);
+  border:1px solid rgba(255,255,255,.1);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 30px 80px rgba(0,0,0,.35);
+}
+@media(max-width:640px){.scan-box{padding:28px 22px;}}
+.scan-q{font-size:clamp(20px,2.3vw,27px);font-weight:700;letter-spacing:-.02em;margin-bottom:8px;}
+.scan-hint{font-size:14.5px;color:rgba(255,255,255,.55);margin-bottom:26px;}
+.scan-chips{display:flex;flex-wrap:wrap;gap:11px;}
+.scan-chip{
+  display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 22px;
+  font-size:15px;font-weight:600;color:rgba(255,255,255,.85);
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
+  transition:all .25s var(--ease);
+}
+.scan-chip i{width:10px;height:10px;border-radius:50%;}
+.scan-chip:hover{transform:translateY(-2px);background:rgba(255,255,255,.12);}
+.scan-chip.sel{background:#fff;color:var(--ink-900);border-color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.3);}
+.scan-step2{max-height:0;overflow:hidden;opacity:0;transform:translateY(14px);transition:max-height .6s var(--ease),opacity .6s var(--ease),transform .6s var(--ease);margin-top:0;}
+.scan-step2.open{max-height:480px;opacity:1;transform:none;margin-top:36px;}
+.scan-result{max-height:0;overflow:hidden;opacity:0;transform:translateY(14px);transition:max-height .6s var(--ease),opacity .6s var(--ease),transform .6s var(--ease);}
+.scan-result.open{max-height:700px;opacity:1;transform:none;margin-top:36px;}
+.scan-result-card{
+  border-radius:16px;background:rgba(248,205,95,.1);border:1px solid rgba(248,205,95,.3);
+  padding:26px 28px;
+}
+.scan-result-card .k{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--oker-300);margin-bottom:10px;}
+.scan-result-card p{font-size:17px;line-height:1.55;color:rgba(255,255,255,.9);text-wrap:pretty;}
+.scan-result-card p b{color:var(--oker-300);font-weight:600;}
+.scan-actions{display:flex;gap:14px;align-items:center;margin-top:26px;flex-wrap:wrap;}
+.scan-note{font-size:12.5px;color:rgba(255,255,255,.45);}
+
+/* ---------- Whitepaper banner ---------- */
+.wp{background:var(--canvas);}
+.wp-band{
+  display:grid;grid-template-columns:auto 1fr auto;gap:56px;align-items:center;
+  border-radius:26px;padding:54px 60px;position:relative;overflow:hidden;
+  background:linear-gradient(130deg,#FDF8E7,#FAEDC0 55%,#F5DC8C);
+  border:1px solid var(--oker-200);
+}
+@media(max-width:980px){.wp-band{grid-template-columns:1fr;gap:34px;padding:40px 32px;}}
+.wp-book{
+  width:190px;height:250px;position:relative;perspective:900px;flex-shrink:0;margin:0 auto;
+}
+.wp-book .cover{
+  position:absolute;inset:0;border-radius:6px 14px 14px 6px;
+  background:var(--ink-900);color:#fff;padding:24px 20px;
+  transform:rotateY(-22deg);transform-origin:left center;transform-style:preserve-3d;
+  box-shadow:18px 26px 50px rgba(31,31,31,.35),inset -3px 0 8px rgba(255,255,255,.05);
+  transition:transform .8s var(--ease);
+  display:flex;flex-direction:column;
+}
+.wp-book:hover .cover{transform:rotateY(-32deg);}
+.wp-book .pages{
+  position:absolute;inset:4px -6px 4px auto;width:12px;border-radius:0 3px 3px 0;
+  background:repeating-linear-gradient(90deg,#fff,#fff 1px,#E8E5DD 2px);
+  transform:rotateY(-22deg) translateZ(-6px);transform-origin:left center;
+}
+.wp-book .cover .wpk{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--oker-300);}
+.wp-book .cover h4{font-size:21px;font-weight:700;letter-spacing:-.02em;line-height:1.15;margin-top:10px;}
+.wp-book .cover .auth{margin-top:auto;font-size:10px;color:rgba(255,255,255,.55);}
+.wp-book .cover .stones{margin-top:14px;display:flex;gap:4px;}
+.wp-book .cover .stones i{border-radius:3px;background:var(--oker-300);}
+.wp-txt .k{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--oker-700);}
+.wp-txt h3{font-size:clamp(26px,3vw,38px);font-weight:700;letter-spacing:-.025em;margin:12px 0 14px;}
+.wp-txt p{font-size:16px;color:var(--ink-700);max-width:520px;text-wrap:pretty;}
+.wp-form{display:flex;flex-direction:column;gap:12px;min-width:280px;}
+@media(max-width:640px){.wp-form{min-width:0;width:100%;}}
+.wp-form .privacy{font-size:11.5px;color:var(--oker-700);text-align:center;}
+
+/* ---------- Prijzen ---------- */
+.prijs{background:var(--surface);border-top:1px solid var(--ink-100);}
+.prijs-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:880px;margin:0 auto;}
+@media(max-width:800px){.prijs-grid{grid-template-columns:1fr;max-width:460px;}}
+.p-card{
+  border-radius:var(--r-lg);border:1px solid var(--ink-100);background:var(--canvas);
+  padding:38px 36px;position:relative;
+}
+.p-card.hot{background:var(--ink-900);color:#fff;border-color:var(--ink-900);overflow:hidden;}
+.p-card.hot::before{
+  content:'';position:absolute;top:-70px;right:-70px;width:230px;height:230px;border-radius:50%;
+  background:rgba(248,205,95,.16);filter:blur(40px);
+}
+.p-card .badge{
+  position:absolute;top:22px;right:22px;font-size:11px;font-weight:700;letter-spacing:.05em;
+  background:var(--oker-300);color:var(--ink-900);border-radius:99px;padding:5px 13px;
+}
+.p-card .pn{font-size:14px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-500);}
+.p-card.hot .pn{color:rgba(255,255,255,.6);}
+.p-card .amount{display:flex;align-items:baseline;gap:8px;margin:16px 0 4px;}
+.p-card .amount b{font-size:52px;font-weight:700;letter-spacing:-.04em;line-height:1;}
+.p-card .amount span{font-size:15px;color:var(--ink-500);}
+.p-card.hot .amount span{color:rgba(255,255,255,.6);}
+.p-card .note{font-size:13.5px;color:var(--ink-500);margin-bottom:24px;}
+.p-card.hot .note{color:rgba(255,255,255,.6);}
+.p-card ul{list-style:none;display:flex;flex-direction:column;gap:11px;margin-bottom:30px;}
+.p-card li{display:flex;gap:11px;font-size:14.5px;align-items:flex-start;color:var(--ink-700);}
+.p-card.hot li{color:rgba(255,255,255,.85);}
+.p-card li .ck{width:19px;height:19px;border-radius:50%;background:var(--oker-100);color:var(--oker-700);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.p-card.hot li .ck{background:rgba(248,205,95,.2);color:var(--oker-300);}
+.p-btn{
+  display:block;text-align:center;font-weight:600;font-size:15.5px;border-radius:999px;padding:15px;
+  border:1.5px solid var(--ink-900);color:var(--ink-900);transition:all .2s var(--ease);
+}
+.p-btn:hover{background:var(--ink-900);color:#fff;transform:translateY(-2px);}
+.p-card.hot .p-btn{background:var(--oker-300);border-color:var(--oker-300);color:var(--ink-900);}
+.p-card.hot .p-btn:hover{background:var(--oker-200);transform:translateY(-2px);box-shadow:0 10px 26px rgba(248,205,95,.3);}
+.garantie{
+  max-width:880px;margin:26px auto 0;border-radius:var(--r-lg);
+  border:1.5px dashed var(--oker-400);background:var(--oker-50);
+  padding:28px 34px;display:flex;gap:20px;align-items:center;flex-wrap:wrap;
+}
+.garantie .shield{width:46px;height:46px;border-radius:14px;background:var(--oker-300);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.garantie p{flex:1;min-width:260px;font-size:15.5px;color:var(--ink-800);text-wrap:pretty;}
+.garantie p b{font-weight:700;}
+.prijs-micro{text-align:center;font-size:13.5px;color:var(--ink-500);margin-top:26px;}
+
+/* ---------- Maker ---------- */
+.maker{background:var(--canvas);}
+.maker-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:center;}
+@media(max-width:880px){.maker-grid{grid-template-columns:1fr;gap:40px;}}
+.maker blockquote{
+  font-size:clamp(22px,2.6vw,30px);font-weight:500;letter-spacing:-.02em;line-height:1.35;
+  color:var(--ink-800);text-wrap:pretty;
+}
+.maker blockquote em{font-style:normal;background:linear-gradient(transparent 62%,var(--oker-200) 62%);}
+.maker .who{margin-top:26px;display:flex;align-items:center;gap:14px;}
+.maker .who .av{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2.5px solid var(--oker-300);}
+.maker .who b{display:block;font-size:15.5px;}
+.maker .who span{font-size:13.5px;color:var(--ink-500);}
+.maker .bio{margin-top:20px;font-size:15px;color:var(--ink-600);max-width:520px;text-wrap:pretty;}
+.trust-list{display:flex;flex-direction:column;gap:14px;}
+.trust-item{
+  border-radius:var(--r-md);border:1px solid var(--ink-100);background:var(--surface);
+  padding:20px 24px;display:flex;gap:16px;align-items:flex-start;
+}
+.trust-item .ti{width:34px;height:34px;border-radius:10px;background:var(--oker-50);border:1px solid var(--oker-200);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.trust-item b{display:block;font-size:15px;margin-bottom:3px;}
+.trust-item p{font-size:13.5px;color:var(--ink-600);}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--surface);border-top:1px solid var(--ink-100);}
+.faq-list{max-width:760px;margin:0 auto;}
+.faq-item{border-bottom:1px solid var(--ink-100);}
+.faq-q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:26px 4px;text-align:left;font-size:17.5px;font-weight:600;color:var(--ink-900);
+  transition:color .2s;
+}
+.faq-q:hover{color:var(--oker-700);}
+.faq-q .pl{
+  width:28px;height:28px;border-radius:50%;border:1px solid var(--ink-200);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;position:relative;
+  transition:transform .4s var(--ease),background .3s,border-color .3s;
+}
+.faq-q .pl::before,.faq-q .pl::after{content:'';position:absolute;background:var(--ink-600);border-radius:2px;transition:background .3s;}
+.faq-q .pl::before{width:11px;height:1.5px;}
+.faq-q .pl::after{width:1.5px;height:11px;}
+.faq-item.open .pl{transform:rotate(135deg);background:var(--ink-900);border-color:var(--ink-900);}
+.faq-item.open .pl::before,.faq-item.open .pl::after{background:#fff;}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .5s var(--ease);}
+.faq-a p{padding:0 44px 26px 4px;font-size:15.5px;color:var(--ink-600);line-height:1.65;text-wrap:pretty;}
+
+/* ---------- Finale ---------- */
+.finale{
+  background:var(--ink-900);color:#fff;text-align:center;overflow:hidden;position:relative;
+  padding:150px 0 140px;
+}
+.finale .orb.f1{width:640px;height:640px;background:rgba(248,205,95,.10);top:-260px;left:50%;margin-left:-320px;}
+.finale .orb.f2{width:420px;height:420px;background:rgba(58,76,184,.22);bottom:-160px;right:-100px;}
+.finale h2{color:#fff;font-size:clamp(38px,5.6vw,72px);}
+.finale h2 em{font-style:normal;color:var(--oker-300);}
+.finale .sub{color:rgba(255,255,255,.6);margin:24px auto 40px;}
+.finale .hero-micro{color:rgba(255,255,255,.45);animation:none;opacity:1;}
+.finale .hero-micro b{color:rgba(255,255,255,.75);}
+
+/* ---------- Footer ---------- */
+footer{background:var(--ink-900);color:rgba(255,255,255,.5);border-top:1px solid rgba(255,255,255,.08);padding:44px 0;font-size:13px;}
+.foot-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center;}
+.foot-links{display:flex;gap:22px;flex-wrap:wrap;}
+.foot-links a{transition:color .2s;}
+.foot-links a:hover{color:#fff;}
+
+/* ---------- Mobiele sticky CTA-pil ---------- */
+.mob-pill{
+  position:fixed;bottom:calc(14px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%) translateY(120px);
+  z-index:99;display:none;align-items:center;gap:8px;
+  border-radius:999px;padding:8px 8px 8px 18px;
+  transition:transform .5s var(--ease);
+  width:calc(100vw - 28px);max-width:420px;justify-content:space-between;
+}
+.mob-pill.show{transform:translateX(-50%) translateY(0);}
+.mob-pill span{font-size:12.5px;font-weight:600;color:var(--ink-700);}
+.mob-pill a{
+  background:var(--ink-900);color:#fff;font-size:13.5px;font-weight:600;
+  border-radius:999px;padding:11px 20px;white-space:nowrap;
+}
+@media(max-width:760px){.mob-pill{display:flex;}}
+
+/* ---------- Stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:900px;margin:0 auto;}
+@media(max-width:700px){.stats{grid-template-columns:1fr;max-width:380px;}}
+.stat{
+  text-align:center;border-radius:var(--r-lg);padding:36px 20px;
+  background:var(--surface);border:1px solid var(--ink-100);
+}
+.stat b{font-size:56px;font-weight:700;letter-spacing:-.04em;display:block;line-height:1;font-variant-numeric:tabular-nums;}
+.stat b i{font-style:normal;color:var(--oker-500);}
+.stat .u{font-size:15px;font-weight:600;color:var(--ink-800);margin-top:10px;display:block;}
+.stat .s{font-size:13px;color:var(--ink-500);margin-top:3px;display:block;}
+
+.loopspin{display:inline-block;}
+.ritme-loop.in .loopspin{animation:spinOnce 1.3s var(--ease) .15s both;}
+@keyframes spinOnce{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<!-- ══════════════ NAV ══════════════ -->
+<nav class="nav glass" id="nav">
+  <a class="logo" href="/" aria-label="MagilityOne"><img src="/assets/logo-horizontaal.svg" alt="MagilityOne" style="height:26px;width:auto;display:block"></a>
+  <div class="links">
+    <a href="#ritme">Hoe het werkt</a>
+    <a href="#app">In de app</a>
+    <a href="#voorwie">Voor wie</a>
+    <a href="#scan">De scan</a>
+    <a href="#prijzen">Prijzen</a>
+  </div>
+  <a class="cta" href="https://app.magilityone.com/start">Start gratis</a>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<header class="hero">
+  <div class="hero-bg">
+    <div class="orb o1 orb1"></div>
+    <div class="orb o2 orb2"></div>
+    <div class="orb o3 orb3"></div>
+    <div class="hero-grid-lines"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-badge glass"><span class="pulse"></span>Vier weken alles gratis, zonder creditcard</div>
+    <h1>
+      <span class="line"><span class="w" style="--wd:.05s">Leef&nbsp;je&nbsp;week</span> <span class="w" style="--wd:.14s">niet</span></span>
+      <span class="line"><span class="w" style="--wd:.26s">per&nbsp;ongeluk.</span> <span class="w" style="--wd:.42s"><em>Kies&nbsp;hem.<span class="marker"></span></em></span></span>
+    </h1>
+    <p class="hero-sub">MagilityOne is de weekplanner die begint bij wie je bent. Eén keer per week ga je zitten. Je kijkt terug, je kiest wat echt telt, en je zet het in je agenda. Twintig minuten op zondag, en de rest van je week loopt anders.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="https://app.magilityone.com/start">Begin je proefweek <span class="arr">→</span></a>
+      <a class="btn btn-glass glass" href="#scan">Doe eerst de scan · 1 min</a>
+    </div>
+    <p class="hero-micro">Geen account nodig om te proberen · daarna <b>€14,95</b> per maand of <b>€119</b> per jaar · gratis blijven kan ook</p>
+  </div>
+
+  <div class="asm" id="asm">
+  <div class="asm-sticky">
+  <div class="hero-stage" id="heroStage">
+    <div class="float-card glass fc1" id="fc1"><span class="ic" style="background:var(--oker-100)">📅</span><span>Agenda gekoppeld<small>Google &amp; Outlook</small></span></div>
+    <div class="float-card glass fc2" id="fc2"><span class="ic" style="background:#E8EEF9">✓</span><span>Avond samen<small>staat vast, wo 18:30</small></span></div>
+    <div class="float-card glass fc3" id="fc3"><span class="ic" style="background:#E4F2EC">✨</span><span>Coach: je maakte 3× tijd voor groei<small>vorige week 0×</small></span></div>
+
+    <div class="coach-bub" id="coachBub"><span class="cb-ic">✨</span><div><span class="cb-k">Je coach</span><span id="mockCoach">Zo ziet je week eruit zonder dat je iets kiest.</span></div></div>
+
+    <div class="mock" id="mock">
+      <div class="mock-chrome"><i></i><i></i><i></i><span class="url">app.magilityone.com</span></div>
+      <div class="mock-body">
+        <div class="mock-side">
+          <p class="lbl">Kompas · rollen en doelen</p>
+          <div class="role-row"><span class="rd" style="background:var(--groei)"></span>Persoonlijke groei<span class="cnt">3×</span></div>
+          <div class="goal-row"><span class="gc"></span>Drie keer hardlopen</div>
+          <div class="role-row"><span class="rd" style="background:var(--ondernemer)"></span>Ondernemer<span class="cnt">2</span></div>
+          <div class="goal-row"><span class="gc"></span>Offerte Van Dijk afmaken</div>
+          <div class="goal-row"><span class="gc"></span>LinkedIn-post schrijven</div>
+          <div class="role-row"><span class="rd" style="background:var(--partner)"></span>Partner<span class="cnt">1</span></div>
+          <div class="goal-row"><span class="gc"></span>Een avond samen, zonder telefoon</div>
+          <div class="role-row"><span class="rd" style="background:var(--prof)"></span>Professional<span class="cnt">1</span></div>
+          <div class="goal-row"><span class="gc"></span>Klantpresentatie voorbereiden</div>
+        </div>
+        <div class="mock-grid">
+          <div class="mock-days"><span></span><span>Ma <i>17</i></span><span class="today">Di <i>18</i></span><span>Wo <i>19</i></span><span>Do <i>20</i></span><span>Vr <i>21</i></span></div>
+          <div class="mock-time">
+            <div class="tcol">
+              <span style="top:7.1%">08:00</span><span style="top:21.4%">10:00</span><span style="top:35.7%">12:00</span><span style="top:50%">14:00</span><span style="top:64.3%">16:00</span><span style="top:78.6%">18:00</span><span style="top:92.9%">20:00</span>
+            </div>
+            <div class="mock-cols">
+              <div class="mock-col">
+                <div class="blk mine" style="top:0%;height:5.4%;background:rgba(15,123,90,.09);border-color:var(--groei);color:var(--groei)">Hardlopen<small>07:00 · 45 min</small></div>
+                <div class="blk" style="top:14.3%;height:3.6%">Standup<small>09:00</small></div>
+                <div class="blk mine" style="top:17.9%;height:14.3%;background:rgba(58,76,184,.09);border-color:var(--ondernemer);color:var(--ondernemer)">Offerte Van Dijk<small>09:30 · diep werk</small></div>
+              </div>
+              <div class="mock-col today">
+                <div class="blk" style="top:21.4%;height:7.1%">Teamoverleg<small>10:00 · uit Outlook</small></div>
+                <div class="blk mine" style="top:28.6%;height:7.1%;background:rgba(163,45,91,.09);border-color:var(--prof);color:var(--prof)">Klantpresentatie<small>11:00</small></div>
+                <div class="blk mine" style="top:50%;height:7.1%;background:rgba(58,76,184,.09);border-color:var(--ondernemer);color:var(--ondernemer)">LinkedIn-post<small>14:00</small></div>
+              </div>
+              <div class="mock-col">
+                <div class="blk mine" style="top:0%;height:5.4%;background:rgba(15,123,90,.09);border-color:var(--groei);color:var(--groei)">Hardlopen<small>07:00 · 45 min</small></div>
+                <div class="blk" style="top:14.3%;height:3.6%">Standup<small>09:00</small></div>
+                <div class="blk mine" style="top:82.1%;height:17.9%;background:rgba(180,87,26,.1);border-color:var(--partner);color:var(--partner)">Avond samen<small>18:30 · geen telefoon</small></div>
+              </div>
+              <div class="mock-col">
+                <div class="blk mine" style="top:14.3%;height:14.3%;background:rgba(58,76,184,.09);border-color:var(--ondernemer);color:var(--ondernemer)">Offerte afronden<small>09:00 · diep werk</small></div>
+                <div class="blk" style="top:57.1%;height:7.1%">1-op-1 met Sarah<small>15:00 · uit Outlook</small></div>
+                <div class="blk mine" style="top:92.9%;height:7.1%;background:rgba(180,87,26,.1);border-color:var(--partner);color:var(--partner)">Avondwandeling<small>20:00</small></div>
+              </div>
+              <div class="mock-col">
+                <div class="blk" style="top:14.3%;height:3.6%">Standup<small>09:00</small></div>
+                <div class="blk mine ink" style="top:64.3%;height:7.1%">Weekronde<small>16:00 · 20 min</small></div>
+                <div class="blk mine" style="top:75%;height:5.4%;background:rgba(15,123,90,.09);border-color:var(--groei);color:var(--groei)">Hardlopen<small>17:30 · 45 min</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="mock-caption" id="mockCaption">De grijze blokken komen uit je eigen agenda. De gekleurde heb je zelf gekozen. Dat is het hele verschil.</p>
+  </div>
+  </div>
+  </div>
+
+  <!-- marquee -->
+  <div class="marquee-band">
+    <div class="marquee">
+      <span class="chip"><i style="background:var(--partner)"></i>Partner · een avond zonder telefoon</span>
+      <span class="chip"><i style="background:var(--ondernemer)"></i>Ondernemer · de offerte eindelijk af</span>
+      <span class="chip"><i style="background:var(--groei)"></i>Sporter · drie keer hardlopen</span>
+      <span class="chip"><i style="background:var(--prof)"></i>Professional · het uitgestelde gesprek</span>
+      <span class="chip"><i style="background:var(--paars)"></i>Ouder · vrijdag zwemles, en blijven kijken</span>
+      <span class="chip"><i style="background:var(--teal)"></i>Vriend · Johan bellen, 3 maanden geleden</span>
+      <span class="chip"><i style="background:var(--groei)"></i>Persoonlijke groei · elke ochtend journalen</span>
+      <span class="chip"><i style="background:var(--partner)"></i>Partner · een avond zonder telefoon</span>
+      <span class="chip"><i style="background:var(--ondernemer)"></i>Ondernemer · de offerte eindelijk af</span>
+      <span class="chip"><i style="background:var(--groei)"></i>Sporter · drie keer hardlopen</span>
+      <span class="chip"><i style="background:var(--prof)"></i>Professional · het uitgestelde gesprek</span>
+      <span class="chip"><i style="background:var(--paars)"></i>Ouder · vrijdag zwemles, en blijven kijken</span>
+      <span class="chip"><i style="background:var(--teal)"></i>Vriend · Johan bellen, 3 maanden geleden</span>
+      <span class="chip"><i style="background:var(--groei)"></i>Persoonlijke groei · elke ochtend journalen</span>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════ HERKEN JE DIT ══════════════ -->
+<section class="sec pain" id="pain">
+  <div class="wrap">
+    <div class="sec-head" data-reveal="up">
+      <span class="eyebrow">Herken je dit?</span>
+      <h2>Druk genoeg. Maar niet<br>met wat echt telt.</h2>
+    </div>
+    <div class="pain-grid">
+      <div class="pain-card" data-reveal="3d" style="--d:0s"><span class="n">01</span><p>Je agenda zit vol, maar niet met wat jij belangrijk vindt.</p></div>
+      <div class="pain-card" data-reveal="3d" style="--d:.1s"><span class="n">02</span><p>Dezelfde belangrijke dingen schuiven elke week weer door.</p></div>
+      <div class="pain-card" data-reveal="3d" style="--d:.2s"><span class="n">03</span><p>Je week loopt vol met de prioriteiten van anderen.</p></div>
+      <div class="pain-card" data-reveal="3d" style="--d:.3s"><span class="n">04</span><p>Aan het eind van de week ben je moe, en weet je niet precies waarvan.</p></div>
+    </div>
+    <div class="pain-turn" data-reveal="up">
+      <p class="big">De meeste planners beginnen bij je taken. <em>Wij beginnen een stap eerder: bij wie je bent.</em></p>
+      <a class="btn btn-oker" href="https://app.magilityone.com/start">Probeer het meteen <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ STATS ══════════════ -->
+<section class="sec" style="padding:90px 0;background:var(--canvas)">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat" data-reveal="up" style="--d:0s"><b data-count="20">0</b><span class="u">minuten op zondag</span><span class="s">meer heeft je weekplan niet nodig</span></div>
+      <div class="stat" data-reveal="up" style="--d:.12s"><b data-count="4">0</b><span class="u">stappen, elke week</span><span class="s">reflecteer · kies · plan · evalueer</span></div>
+      <div class="stat" data-reveal="up" style="--d:.24s"><b><span data-count="168">0</span><i> uur</i></b><span class="u">heeft jouw week</span><span class="s">de vraag is alleen wie ze invult</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ HET RITME (scrollytelling) ══════════════ -->
+<section class="sec ritme" id="ritme">
+  <div class="wrap">
+    <div class="sec-head" data-reveal="up">
+      <span class="eyebrow">Hoe het werkt</span>
+      <h2>Vier stappen, twintig minuten,<br>elke zondag opnieuw</h2>
+      <p class="sub" style="margin-top:18px">Geen traject dat je afrondt. Een gewoonte die je onderhoudt, en die elke week een klein beetje beter wordt.</p>
+    </div>
+    <div class="ritme-layout">
+      <div class="ritme-steps" id="ritmeSteps">
+        <div class="rstep active" data-step="0">
+          <span class="k">Stap 1 · Reflecteer</span>
+          <h3>Kijk eerst even terug</h3>
+          <p>Wat werkte vorige week, en wat schoof door naar deze? Dat patroon zie je zelf niet, tot je er één keer per week naar kijkt.</p>
+        </div>
+        <div class="rstep" data-step="1">
+          <span class="k">Stap 2 · Kies</span>
+          <h3>Bepaal wat deze week telt</h3>
+          <p>Vanuit je rollen: partner, ondernemer, ouder, vriend. Meestal is het minder dan je dacht. Dat is precies de bedoeling.</p>
+        </div>
+        <div class="rstep" data-step="2">
+          <span class="k">Stap 3 · Plan</span>
+          <h3>Zet er echte tijd voor vast</h3>
+          <p>Naast de afspraken die er al staan. Een doel zonder tijdstip is een wens. Een blok in je agenda is een besluit.</p>
+        </div>
+        <div class="rstep" data-step="3">
+          <span class="k">Stap 4 · Evalueer</span>
+          <h3>Sluit de week bewust af</h3>
+          <p>Eén observatie van je coach, gebaseerd op wat je werkelijk deed. Geen cijfers, geen streaks, geen rode getallen.</p>
+        </div>
+      </div>
+      <div class="ritme-visual" id="ritmeVisual">
+        <div class="rv-card" data-panel="0">
+          <p class="cap"><i></i>Terugblik · vorige week</p>
+          <div class="rv-line"><span class="rv-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>Drie keer hardlopen<small>gelukt</small></div>
+          <div class="rv-line"><span class="rv-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>Offerte Van Dijk<small>gelukt</small></div>
+          <div class="rv-line ghost"><i style="background:var(--partner)"></i>Avond samen<small>doorgeschoven, 3e keer</small></div>
+          <div class="rv-coach"><span>✨</span><span>Je verzette <b>Partner</b> deze week voor de derde keer. Wil je daar deze week iets aan doen?</span></div>
+        </div>
+        <div class="rv-card" data-panel="1">
+          <p class="cap"><i></i>Kies · vanuit je rollen</p>
+          <div class="rv-line"><i style="background:var(--partner)"></i>Partner<small>1 doel</small></div>
+          <div class="rv-line"><i style="background:var(--ondernemer)"></i>Ondernemer<small>2 doelen</small></div>
+          <div class="rv-line"><i style="background:var(--groei)"></i>Persoonlijke groei<small>1 doel</small></div>
+          <div class="rv-line ghost"><i style="background:var(--ink-300)"></i>Alles wat óók zou kunnen<small>bewust niet</small></div>
+          <div class="rv-coach"><span>✨</span><span>Vier doelen is genoeg. <b>Minder kiezen</b> is meer afmaken.</span></div>
+        </div>
+        <div class="rv-card" data-panel="2">
+          <p class="cap"><i></i>Plan · naast je echte agenda</p>
+          <div class="rv-line ghost"><i style="background:var(--ink-300)"></i>Teamoverleg<small>di 10:00 · Outlook</small></div>
+          <div class="rv-line"><i style="background:var(--partner)"></i>Avond samen<small>wo 18:30 · staat vast</small></div>
+          <div class="rv-line ghost"><i style="background:var(--ink-300)"></i>Standup<small>vr 09:00 · Outlook</small></div>
+          <div class="rv-line"><i style="background:var(--groei)"></i>Hardlopen<small>vr 17:30 · 45 min</small></div>
+          <div class="rv-coach"><span>✨</span><span>Past het niet? Dan zie je dat <b>nu</b>, niet donderdagavond.</span></div>
+        </div>
+        <div class="rv-card" data-panel="3">
+          <p class="cap"><i></i>Evalueer · einde van de week</p>
+          <div class="rv-coach" style="margin-top:0"><span>✨</span><span>Je maakte deze week <b>drie keer</b> ruimte voor Persoonlijke groei. Vorige week geen enkele keer. En de avond samen? Die stond er, en hij bleef staan.</span></div>
+          <div class="rv-line" style="margin-top:14px"><span class="rv-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>Week afgesloten<small>zondag begin je opnieuw</small></div>
+        </div>
+      </div>
+    </div>
+    <p class="ritme-loop" data-reveal="up"><span class="loopspin">↻</span> En zondag begin je gewoon opnieuw. Sla je een week over? Dan sla je een week over.</p>
+  </div>
+</section>
+
+<!-- ══════════════ IN DE APP ══════════════ -->
+<section class="sec proof" id="app">
+  <div class="wrap">
+    <div class="sec-head" data-reveal="up">
+      <span class="eyebrow">In de app</span>
+      <h2>Drie dingen die het<br>verschil maken</h2>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card" data-reveal="3d" style="--d:0s">
+        <div class="proof-vis">
+          <div class="mini-agenda">
+            <div class="ma-row"><span class="ma-time">09:00</span><div class="ma-block ext">Standup · uit Outlook</div></div>
+            <div class="ma-row"><span class="ma-time">09:30</span><div class="ma-block" style="background:rgba(58,76,184,.09);border-color:var(--ondernemer);color:var(--ondernemer)">Offerte Van Dijk · diep werk</div></div>
+            <div class="ma-row"><span class="ma-time">12:30</span><div class="ma-block ext">Lunch met team</div></div>
+            <div class="ma-row"><span class="ma-time">15:00</span><div class="ma-block ext">1-op-1 met Sarah</div></div>
+            <div class="ma-row"><span class="ma-time">18:30</span><div class="ma-block" style="background:rgba(180,87,26,.1);border-color:var(--partner);color:var(--partner)">Avond samen · geen telefoon</div></div>
+            <div class="ma-row"><span class="ma-time">20:00</span><div class="ma-block" style="background:rgba(15,123,90,.09);border-color:var(--groei);color:var(--groei)">Boek lezen · 30 min</div></div>
+          </div>
+        </div>
+        <div class="proof-txt">
+          <h3>Je echte agenda staat er meteen in</h3>
+          <p>Koppel Google of Outlook. Wat er al staat is grijs, wat jij kiest krijgt de kleur van je rol. In één blik zie je of je week past, of dat er iets moet wijken.</p>
+        </div>
+      </div>
+      <div class="proof-card" data-reveal="3d" style="--d:.12s">
+        <div class="proof-vis">
+          <div class="phone">
+            <div class="notch"></div>
+            <div class="phone-day">
+              <p class="pd-t">Vandaag · woensdag</p>
+              <div class="pd-item" style="background:rgba(15,123,90,.09);border-color:var(--groei);color:var(--groei)">07:00 · Hardlopen</div>
+              <div class="pd-item" style="background:var(--sunken);border-color:var(--ink-300);color:var(--ink-500)">09:00 · Standup</div>
+              <div class="pd-item" style="background:rgba(58,76,184,.09);border-color:var(--ondernemer);color:var(--ondernemer)">10:00 · Diep werk</div>
+              <div class="pd-item" style="background:rgba(180,87,26,.1);border-color:var(--partner);color:var(--partner)">18:30 · Avond samen</div>
+            </div>
+            <div class="phone-pill"><span>Week</span><span class="on">Vandaag</span><span>Doelen</span><span>Coach</span></div>
+          </div>
+        </div>
+        <div class="proof-txt">
+          <h3>Op je telefoon land je op de dag</h3>
+          <p>Mobiel is voor doen, niet voor plannen. Je opent de app en ziet meteen wat er nu toe doet, met de glazen pil onderin om te wisselen.</p>
+        </div>
+      </div>
+      <div class="proof-card" data-reveal="3d" style="--d:.24s">
+        <div class="proof-vis">
+          <div class="coach-bubbles">
+            <div class="cb"><span class="tag">✨ Coach · terugblik</span><br>Je verzette <b>Partner</b> deze week voor de derde keer. Ondernemer schoof je nooit.</div>
+            <div class="cb me">Au. Niet expres.</div>
+            <div class="cb">Hoeft ook niet expres te zijn. Zal ik woensdagavond vastzetten als een blok dat niet wijkt?</div>
+          </div>
+        </div>
+        <div class="proof-txt">
+          <h3>Een coach die meekijkt, niet aandringt</h3>
+          <p>Eén observatie per week, gebaseerd op wat je werkelijk hebt gedaan. Geen punten, geen streaks. En je kunt hem helemaal uitzetten.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ VOOR WIE ══════════════ -->
+<section class="sec" id="voorwie" style="background:var(--surface);border-top:1px solid var(--ink-100)">
+  <div class="wrap">
+    <div class="sec-head" data-reveal="up">
+      <span class="eyebrow">Voor wie</span>
+      <h2>Gemaakt voor mensen<br>met meer dan een baan</h2>
+    </div>
+    <div class="pain-grid">
+      <div class="wie-card" data-reveal="3d" style="--d:0s">
+        <h3>De professional met een overvolle week</h3>
+        <p>Je agenda staat vol met andermans prioriteiten en het belangrijke schuift steeds door. Je zoekt geen extra lijstje, je zoekt rust en overzicht.</p>
+        <a href="/weekplanning">Weekplanning die rust geeft</a>
+      </div>
+      <div class="wie-card" data-reveal="3d" style="--d:.1s">
+        <h3>De ondernemer met meerdere petten</h3>
+        <p>Werk lekt door alles heen. Je wilt ook partner, ouder en sporter zijn, en merkt dat die rollen verliezen van de zaak.</p>
+        <a href="/rollen">Plannen vanuit je rollen</a>
+      </div>
+      <div class="wie-card" data-reveal="3d" style="--d:.2s">
+        <h3>De Covey-lezer</h3>
+        <p>Je kent de grote stenen en kwadrant 2. Nu wil je een agenda die het elke week waarmaakt in plaats van een boek dat het één keer uitlegt.</p>
+        <a href="/methode">Covey in de praktijk</a>
+      </div>
+      <div class="wie-card" data-reveal="3d" style="--d:.3s">
+        <h3>De bewuste levensontwerper</h3>
+        <p>Je vraag is niet hoe je productiever wordt, maar of je tijd naar de dingen gaat die echt tellen. Missie en waarden zijn hier het startpunt.</p>
+        <a href="/missie-en-waarden">Leven naar je waarden</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ DE SCAN (interactief) ══════════════ -->
+<section class="sec scan" id="scan">
+  <div class="orb s1 orb1"></div>
+  <div class="orb s2 orb2"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="sec-head" data-reveal="up">
+      <span class="eyebrow">De scan · 1 minuut</span>
+      <h2>Welke rol schuift bij jou<br>steeds door?</h2>
+      <p class="sub">Twee keuzes, geen account, geen e-mailadres. Je antwoord gaat mee naar je proefweek, zodat je niets twee keer hoeft in te vullen.</p>
+    </div>
+    <div class="scan-box" data-reveal="zoom">
+      <p class="scan-q">1 · Welke rollen maken jouw week belangrijk?</p>
+      <p class="scan-hint">Kies er zoveel als kloppen.</p>
+      <div class="scan-chips" id="scanRoles">
+        <button class="scan-chip" data-role="Ondernemer"><i style="background:var(--ondernemer)"></i>Ondernemer</button>
+        <button class="scan-chip" data-role="Professional"><i style="background:var(--prof)"></i>Professional</button>
+        <button class="scan-chip" data-role="Partner"><i style="background:var(--partner)"></i>Partner</button>
+        <button class="scan-chip" data-role="Ouder"><i style="background:var(--paars)"></i>Ouder</button>
+        <button class="scan-chip" data-role="Vriend"><i style="background:var(--teal)"></i>Vriend</button>
+        <button class="scan-chip" data-role="Sporter"><i style="background:var(--groei)"></i>Sporter</button>
+      </div>
+      <div class="scan-step2" id="scanStep2">
+        <p class="scan-q">2 · En welke schuift als eerste door als het druk wordt?</p>
+        <div class="scan-chips" id="scanFocus"></div>
+      </div>
+      <div class="scan-result" id="scanResult">
+        <div class="scan-result-card">
+          <p class="k">Je uitkomst</p>
+          <p><b id="resRole">Partner</b> is bij jou de rol die als eerste wijkt. Niet omdat hij minder belangrijk is, maar omdat er nooit een vast moment voor staat. Zonder vaste plek verliest hij het van alles wat wél vaststaat.</p>
+        </div>
+        <div class="scan-actions">
+          <a class="btn btn-oker" id="scanCta" href="https://app.magilityone.com/start">Zet dit in mijn week <span class="arr">→</span></a>
+          <span class="scan-note">Je proefweek staat al klaar met deze rollen. Nog steeds zonder account.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ WHITEPAPER ══════════════ -->
+<section class="sec wp" id="whitepaper">
+  <div class="wrap">
+    <div class="wp-band" data-reveal="up">
+      <div class="wp-book">
+        <div class="pages"></div>
+        <div class="cover">
+          <span class="wpk">Gratis whitepaper</span>
+          <h4>Eerst de grote stenen</h4>
+          <div class="stones"><i style="width:22px;height:22px"></i><i style="width:15px;height:15px;margin-top:7px"></i><i style="width:9px;height:9px;margin-top:13px;opacity:.7"></i></div>
+          <span class="auth">MagilityOne · 16 pagina's</span>
+        </div>
+      </div>
+      <div class="wp-txt">
+        <span class="k">Liever eerst lezen?</span>
+        <h3>Zestien pagina's over weken die wél kloppen</h3>
+        <p>Over timemanagement, weekplanning en het halen van je doelen. Gebaseerd op het werk van Covey en Clear, met de cijfers erbij die wél kloppen. Ook als je nooit klant wordt.</p>
+      </div>
+      <div class="wp-form">
+        <a class="btn btn-primary" href="https://app.magilityone.com/whitepaper" style="width:100%">Lees de whitepaper</a>
+        <p class="privacy">Gratis, zonder account.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PRIJZEN ══════════════ -->
+<section class="sec prijs" id="prijzen">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin-left:auto;margin-right:auto" data-reveal="up">
+      <span class="eyebrow" style="justify-content:center">Prijzen</span>
+      <h2>Eerlijk geprijsd.<br>Altijd opzegbaar.</h2>
+      <p class="sub" style="margin:18px auto 0">Vier weken alles gratis, zonder creditcard. Daarna kies je, of je blijft gewoon gratis plannen.</p>
+    </div>
+    <div class="prijs-grid">
+      <div class="p-card" data-reveal="3d-left">
+        <p class="pn">Maandelijks</p>
+        <div class="amount"><b>€14,95</b><span>/maand</span></div>
+        <p class="note">Flexibel. Maandelijks opzegbaar.</p>
+        <ul>
+          <li><span class="ck">✓</span>Weekplanning vanuit je rollen en waarden</li>
+          <li><span class="ck">✓</span>AI-coach: één observatie per week, uitzetbaar</li>
+          <li><span class="ck">✓</span>Google- en Outlook-agenda gekoppeld</li>
+          <li><span class="ck">✓</span>Dagplanner met tijdblokken</li>
+          <li><span class="ck">✓</span>Bewuste weekafsluiting</li>
+        </ul>
+        <a class="p-btn" href="https://app.magilityone.com/start">Begin met plannen</a>
+      </div>
+      <div class="p-card hot" data-reveal="3d-right">
+        <span class="badge">Bespaar 34%</span>
+        <p class="pn">Jaarlijks</p>
+        <div class="amount"><b>€9,92</b><span>/maand</span></div>
+        <p class="note">Gefactureerd als €119 per jaar.</p>
+        <ul>
+          <li><span class="ck">✓</span>Alles uit maandelijks, exact dezelfde functies</li>
+          <li><span class="ck">✓</span>Eén keer per jaar, maximaal voordeel</li>
+          <li><span class="ck">✓</span>Je gegevens blijven van jou, exporteren met één klik</li>
+          <li><span class="ck">✓</span>Geen tracking, geen advertenties</li>
+          <li><span class="ck">✓</span>Stopt de proef? Je zakt terug naar gratis, niets kwijt</li>
+        </ul>
+        <a class="p-btn" href="https://app.magilityone.com/start">Begin met plannen</a>
+      </div>
+    </div>
+    <div class="garantie" data-reveal="up">
+      <span class="shield"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5l8-3z" fill="#1F1F1F"/><path d="M8.5 12l2.5 2.5 4.5-5" stroke="#F8CD5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <p><b>De omgekeerde garantie.</b> Plan vier weken. Zie je daarna niets over jezelf wat je nog niet wist, dan krijg je je geld terug. Eén mailtje is genoeg.</p>
+    </div>
+    <p class="prijs-micro">Geen creditcard om te starten · geen automatische afschrijving na de proef · opzeggen vanuit je account</p>
+  </div>
+</section>
+
+<!-- ══════════════ MAKER ══════════════ -->
+<section class="sec maker">
+  <div class="wrap">
+    <div class="maker-grid">
+      <div data-reveal="left">
+        <span class="eyebrow">De maker</span>
+        <blockquote style="margin-top:22px">"Ik bouwde dit eerst voor mezelf. Ik help al jaren teams om keuzes te maken, en merkte dat ik <em>mijn eigen week nooit koos</em>."</blockquote>
+        <div class="who">
+          <img class="av" src="assets/mark-ter-voert.jpg" alt="Mark ter Voert, oprichter van MagilityOne" width="56" height="56">
+          <div><b>Mark ter Voert</b><span>oprichter · Nederland</span></div>
+        </div>
+        <p class="bio">Mark helpt sinds 2018 teams om samen keuzes te maken: eerst als Scrum Master bij onder meer PostNL en Royal FloraHolland, nu als Agile coach in de Tweede Kamer en als facilitator. Zijn drijfveer is steeds dezelfde: vertrouwen en verbinding creëren, zodat de gesprekken ontstaan die echte verandering mogelijk maken. MagilityOne is die overtuiging, toegepast op je eigen week.</p>
+      </div>
+      <div class="trust-list">
+        <div class="trust-item" data-reveal="right" style="--d:0s">
+          <span class="ti">📖</span>
+          <div><b>Waarop het is gebaseerd</b><p>Het rollen- en kwadrantenwerk van Stephen Covey, vertaald naar een wekelijks ritme in plaats van een boek.</p></div>
+        </div>
+        <div class="trust-item" data-reveal="right" style="--d:.12s">
+          <span class="ti">🔒</span>
+          <div><b>Je gegevens blijven van jou</b><p>Niet gebruikt om modellen te trainen. Exporteren of verwijderen met één klik, en de AI kan helemaal uit.</p></div>
+        </div>
+        <div class="trust-item" data-reveal="right" style="--d:.24s">
+          <span class="ti">🇳🇱</span>
+          <div><b>Wie erachter zit</b><p>Magility B.V., ingeschreven bij de KvK (95661298). Geen investeerders, geen advertenties, geen tracking.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FAQ ══════════════ -->
+<section class="sec faq">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin-left:auto;margin-right:auto" data-reveal="up">
+      <span class="eyebrow" style="justify-content:center">Vragen</span>
+      <h2>Wat mensen zich hier<br>meestal afvragen</h2>
+    </div>
+    <div class="faq-list" data-reveal="up">
+      <div class="faq-item open">
+        <button class="faq-q">Kost dit me niet gewoon twintig minuten extra per week?<span class="pl"></span></button>
+        <div class="faq-a"><p>Ja. Die twintig minuten zijn de reden dat de rest van je week anders loopt.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Wat als ik een week oversla?<span class="pl"></span></button>
+        <div class="faq-a"><p>Dan sla je een week over. Er zijn geen streaks en geen dagelijkse check-in. De volgende zondag pak je het weer op.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Ik gebruik al een takenlijst. Waarom dit erbij?<span class="pl"></span></button>
+        <div class="faq-a"><p>Een takenlijst houdt bij wat er nog moet. Dit helpt je kiezen wat je niet doet, en zet de rest in je agenda.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Wat gebeurt er met mijn agendagegevens?<span class="pl"></span></button>
+        <div class="faq-a"><p>Die blijven van jou en worden niet gebruikt om modellen te trainen. Je kunt alles exporteren of verwijderen, en de AI helemaal uitzetten.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Word ik automatisch afgeschreven na de proefperiode?<span class="pl"></span></button>
+        <div class="faq-a"><p>Nee. Je hoeft geen creditcard op te geven om te beginnen, en na vier weken zakt je account vanzelf terug naar het gratis plan. Je planner, rollen en doelen blijven gewoon werken.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Voor wie is dit niets?<span class="pl"></span></button>
+        <div class="faq-a"><p>Voor wie een projectsysteem zoekt, uren wil registreren, elke dag punten wil verdienen, of hoopt dat een app het kiezen overneemt. Dat doet hij niet. Jij kiest, hij bewaakt.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FINALE ══════════════ -->
+<section class="finale">
+  <div class="orb f1 orb1"></div>
+  <div class="orb f2 orb3"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <h2 data-reveal="up">Ontwerp je week.<br><em>Leef wat echt belangrijk is.</em></h2>
+    <p class="sub" data-reveal="up" style="--d:.1s">Zondag is over een paar dagen. Je zou deze week de eerste kunnen zijn die je zelf hebt gekozen.</p>
+    <div class="hero-ctas" data-reveal="up" style="--d:.2s;animation:none;margin-top:0">
+      <a class="btn btn-oker" href="https://app.magilityone.com/start" style="font-size:17px;padding:18px 38px">Begin je proefweek <span class="arr">→</span></a>
+      <a class="btn btn-glass glass-dark" href="#scan" style="color:#fff">Doe eerst de scan</a>
+    </div>
+    <p class="hero-micro" data-reveal="up" style="--d:.3s">Vier weken alles gratis, zonder creditcard · daarna <b>€14,95</b>/mnd of <b>€119</b>/jaar · of gewoon gratis verder</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <span>© 2026 MagilityOne · Magility B.V. · KvK 95661298 · Nederland</span>
+    <div class="foot-links">
+      <a href="/weekplanning">Weekplanning</a>
+      <a href="/rollen">Rollen</a>
+      <a href="/methode">Methode</a>
+      <a href="/missie-en-waarden">Missie &amp; waarden</a>
+      <a href="https://www.magility.nl/">Workshops · magility.nl</a>
+      <a href="https://app.magilityone.com/privacy">Privacy</a>
+      <a href="https://app.magilityone.com/cookies">Cookies</a>
+      <a href="https://app.magilityone.com/ai">Zo gebruiken wij AI</a>
+      <a href="https://app.magilityone.com/voorwaarden">Voorwaarden</a>
+      <a href="https://app.magilityone.com/Contact">Contact</a>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:22px;font-size:12px;color:rgba(255,255,255,.35);max-width:1200px">MagilityOne is een onafhankelijk product van Magility B.V. Het bouwt voort op het gedachtegoed van Stephen R. Covey, maar is niet verbonden aan, gesponsord door of goedgekeurd door FranklinCovey Co.</div>
+</footer>
+
+<!-- mobiele glazen CTA-pil -->
+<div class="mob-pill glass" id="mobPill">
+  <span>Vier weken alles gratis</span>
+  <a href="https://app.magilityone.com/start">Begin je proefweek</a>
+</div>
+
+<script>
+/* ============================================================
+   Interactie en beweging
+   ============================================================ */
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Reveal on scroll ---------- */
+const io = new IntersectionObserver(es => {
+  es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: .18, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+
+/* ---------- Nav: verbergen bij omlaag scrollen ---------- */
+const nav = document.getElementById('nav');
+let lastY = 0;
+addEventListener('scroll', () => {
+  const y = scrollY;
+  nav.classList.toggle('hidden-up', y > 600 && y > lastY);
+  lastY = y;
+}, { passive: true });
+
+/* ---------- Hero mock: de week bouwt zich op bij het scrollen ----------
+   Zoals een horloge dat zich in elkaar zet: de scroll is de tijdlijn.
+   Elk onderdeel heeft zijn eigen venster binnen de voortgang [0..1] van
+   de pin-sectie. Terugscrollen haalt de week net zo netjes weer uit
+   elkaar; alles is een pure functie van de scrollpositie. */
+const mock = document.getElementById('mock');
+const coachLine = document.getElementById('mockCoach');
+const coachTexts = [
+  'Zo ziet je week eruit zonder dat je iets kiest.',
+  'Stap 1: vanuit welke rollen leef jij deze week?',
+  'Stap 2: wat telt er deze week echt, per rol?',
+  '<b>Mooi.</b> Je maakt tijd voor wat echt telt.'
+];
+const asm = document.getElementById('asm');
+const stageEl = document.getElementById('heroStage');
+const bub = document.getElementById('coachBub');
+const greys = [...mock.querySelectorAll('.blk:not(.mine)')];
+const mines = [...mock.querySelectorAll('.blk.mine')];
+const sideRows = [...mock.querySelectorAll('.role-row,.goal-row')];
+const caption = document.getElementById('mockCaption');
+const win = (p, a, b) => Math.max(0, Math.min(1, (p - a) / (b - a)));
+const easeOut = t => 1 - Math.pow(1 - t, 3);
+
+if (reduced) {
+  coachLine.innerHTML = coachTexts[3];
+  caption.classList.add('show');
+  ['fc1','fc2','fc3'].forEach(id => document.getElementById(id).classList.add('show'));
+} else {
+  let mouseRX = 0, mouseRY = 0, smoothP = 0, coachIdx = -1, endShown = false;
+  stageEl.addEventListener('mousemove', e => {
+    const r = stageEl.getBoundingClientRect();
+    mouseRY = ((e.clientX - r.left) / r.width - .5) * 5;
+    mouseRX = -((e.clientY - r.top) / r.height - .5) * 4;
+  });
+  stageEl.addEventListener('mouseleave', () => { mouseRX = 0; mouseRY = 0; });
+
+  const setEl = (el, t, from) => {
+    el.style.opacity = t;
+    el.style.transform = t >= 1 ? 'none' : from(1 - t);
+  };
+  (function asmFrame() {
+    const r = asm.getBoundingClientRect();
+    const track = r.height - innerHeight;
+    const raw = track > 0 ? Math.max(0, Math.min(1, -r.top / track)) : 1;
+    smoothP += (raw - smoothP) * .14;
+    const p = smoothP;
+
+    /* de kast: het weekraster zelf */
+    const rise = easeOut(win(p, 0, .14));
+    const flat = easeOut(win(p, .72, .94));
+    const rx = 26 - 18 * rise - 8 * flat + mouseRX * rise;
+    mock.style.opacity = rise;
+    mock.style.transform = `rotateX(${rx.toFixed(2)}deg) rotateY(${(mouseRY * rise).toFixed(2)}deg) translateY(${(110 * (1 - rise)).toFixed(1)}px) scale(${(.9 + .1 * rise).toFixed(3)})`;
+
+    /* de grijze afspraken die je overkomen */
+    greys.forEach((el, i) => {
+      const t = easeOut(win(p, .1 + i * .022, .18 + i * .022));
+      setEl(el, t, u => `perspective(600px) rotateX(${-50 * u}deg) translateY(${-26 * u}px)`);
+    });
+    /* het kompas: elke rol met zijn doelen eronder, van boven naar beneden */
+    sideRows.forEach((el, i) => {
+      const t = easeOut(win(p, .24 + i * .026, .33 + i * .026));
+      setEl(el, t, u => `translateX(${-18 * u}px)`);
+    });
+    /* de gekozen blokken, één voor één op hun plek */
+    const step = .38 / mines.length;
+    mines.forEach((el, i) => {
+      const t = easeOut(win(p, .5 + i * step, .5 + i * step + .085));
+      setEl(el, t, u => `perspective(600px) rotateX(${-60 * u}deg) translateY(${-44 * u}px) scale(${1 + .12 * u})`);
+    });
+
+    /* de spraakballon van de coach vertelt mee */
+    bub.style.opacity = easeOut(win(p, .03, .12));
+    const idx = p < .22 ? 0 : p < .46 ? 1 : p < .68 ? 2 : 3;
+    if (idx !== coachIdx) {
+      coachIdx = idx; coachLine.innerHTML = coachTexts[idx];
+      bub.classList.remove('pop'); void bub.offsetWidth; bub.classList.add('pop');
+    }
+
+    /* slotstuk: onderschrift en zwevende kaartjes */
+    if (p > .9 && !endShown) {
+      endShown = true;
+      caption.classList.add('show');
+      ['fc1','fc2','fc3'].forEach((id, i) => setTimeout(() => document.getElementById(id).classList.add('show'), i * 220));
+    } else if (p < .82 && endShown) {
+      endShown = false;
+      caption.classList.remove('show');
+      ['fc1','fc2','fc3'].forEach(id => document.getElementById(id).classList.remove('show'));
+    }
+    requestAnimationFrame(asmFrame);
+  })();
+}
+
+/* ---------- CountUp ---------- */
+const cio = new IntersectionObserver(es => {
+  es.forEach(e => {
+    if (!e.isIntersecting) return;
+    cio.unobserve(e.target);
+    const to = +e.target.dataset.count, t0 = performance.now(), dur = 1200;
+    (function tick(now) {
+      const p = Math.min(1, (now - t0) / dur);
+      e.target.textContent = Math.round((1 - Math.pow(1 - p, 3)) * to);
+      if (p < 1) requestAnimationFrame(tick);
+    })(t0);
+  });
+}, { threshold: .6 });
+document.querySelectorAll('[data-count]').forEach(el => {
+  if (reduced) el.textContent = el.dataset.count; else cio.observe(el);
+});
+
+/* ---------- Ritme scrollytelling ---------- */
+const steps = [...document.querySelectorAll('.rstep')];
+const panels = [...document.querySelectorAll('.rv-card')];
+panels.forEach((p, i) => {
+  const c = p.cloneNode(true);
+  c.classList.add('rv-inline');
+  c.classList.remove('on', 'off-up');
+  c.removeAttribute('data-panel');
+  steps[i].appendChild(c);
+});
+function showPanel(i) {
+  steps.forEach((s, j) => s.classList.toggle('active', j === i));
+  panels.forEach((p, j) => {
+    p.classList.toggle('on', j === i);
+    p.classList.toggle('off-up', j < i);
+  });
+}
+showPanel(0);
+const ritmeVisual = document.getElementById('ritmeVisual');
+let curPanel = 0, kandidaat = -1, kandidaatFrames = 0;
+(function ritmeFrame() {
+  if (ritmeVisual.offsetParent !== null) {
+    const vr = ritmeVisual.getBoundingClientRect();
+    if (vr.bottom > -200 && vr.top < innerHeight + 200) {
+      const center = vr.top + vr.height / 2;
+      let idx = 0, best = Infinity;
+      for (let i = 0; i < steps.length; i++) {
+        const r = steps[i].getBoundingClientRect();
+        const d = Math.abs(r.top + r.height / 2 - center);
+        if (d < best) { best = d; idx = i; }
+      }
+      if (idx !== curPanel) {
+        if (idx === kandidaat) kandidaatFrames += 1;
+        else { kandidaat = idx; kandidaatFrames = 1; }
+        if (kandidaatFrames >= 3) {
+          curPanel = idx; showPanel(idx);
+          kandidaat = -1; kandidaatFrames = 0;
+        }
+      } else { kandidaat = -1; kandidaatFrames = 0; }
+    }
+  }
+  requestAnimationFrame(ritmeFrame);
+})();
+
+/* ---------- Scan ---------- */
+const chosen = new Set();
+const step2 = document.getElementById('scanStep2');
+const focusWrap = document.getElementById('scanFocus');
+const result = document.getElementById('scanResult');
+const scanCta = document.getElementById('scanCta');
+let focusRole = null;
+const roleColors = { Ondernemer:'var(--ondernemer)', Professional:'var(--prof)', Partner:'var(--partner)', Ouder:'var(--paars)', Vriend:'var(--teal)', Sporter:'var(--groei)' };
+
+document.getElementById('scanRoles').addEventListener('click', e => {
+  const b = e.target.closest('.scan-chip'); if (!b) return;
+  const role = b.dataset.role;
+  b.classList.toggle('sel');
+  chosen.has(role) ? chosen.delete(role) : chosen.add(role);
+  if (focusRole && !chosen.has(focusRole)) { focusRole = null; result.classList.remove('open'); }
+  renderFocus();
+  step2.classList.toggle('open', chosen.size >= 2);
+  if (chosen.size < 2) result.classList.remove('open');
+  updateCta();
+});
+function renderFocus() {
+  focusWrap.innerHTML = '';
+  chosen.forEach(role => {
+    const b = document.createElement('button');
+    b.className = 'scan-chip' + (role === focusRole ? ' sel' : '');
+    b.innerHTML = `<i style="background:${roleColors[role]}"></i>${role}`;
+    b.onclick = () => {
+      focusRole = role;
+      renderFocus();
+      document.getElementById('resRole').textContent = role;
+      result.classList.add('open');
+      updateCta();
+      setTimeout(() => result.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'nearest' }), 350);
+    };
+    focusWrap.appendChild(b);
+  });
+}
+function updateCta() {
+  const p = new URLSearchParams();
+  if (chosen.size) p.set('roles', [...chosen].join(','));
+  if (focusRole) p.set('focus', focusRole);
+  scanCta.href = 'https://app.magilityone.com/start' + (p.toString() ? '?' + p.toString() : '');
+}
+
+/* ---------- FAQ ---------- */
+document.querySelectorAll('.faq-item').forEach(item => {
+  const a = item.querySelector('.faq-a');
+  if (item.classList.contains('open')) a.style.maxHeight = a.scrollHeight + 'px';
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    const open = item.classList.toggle('open');
+    a.style.maxHeight = open ? a.scrollHeight + 'px' : 0;
+  });
+});
+addEventListener('resize', () => {
+  document.querySelectorAll('.faq-item.open .faq-a').forEach(a => { a.style.maxHeight = a.scrollHeight + 'px'; });
+}, { passive: true });
+
+/* ---------- Mobiele pil ---------- */
+const pill = document.getElementById('mobPill');
+addEventListener('scroll', () => {
+  pill.classList.toggle('show', scrollY > innerHeight * .7 && scrollY < document.body.scrollHeight - innerHeight * 2.2);
+}, { passive: true });
+
+/* ---------- Parallax op de hero-achtergrond ---------- */
+if (!reduced) {
+  const bg = document.querySelector('.hero-bg');
+  let curP = 0;
+  (function parFrame() {
+    const target = Math.min(scrollY, innerHeight * 1.4) * .14;
+    curP += (target - curP) * .08;
+    bg.style.transform = `translate3d(0,${curP.toFixed(2)}px,0)`;
+    requestAnimationFrame(parFrame);
+  })();
+}
+</script>
+</body>
+</html>
