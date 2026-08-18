@@ -7,7 +7,7 @@
 - Product: webapp op https://app.magilityone.com/
 - Bedrijf: Magility B.V., Nederland, KvK 95661298, opgericht door Mark ter Voert
 - Methode: weekritme in vier stappen (reflecteer, kies, plan, evalueer), gebaseerd op het gedachtegoed van Stephen Covey; onafhankelijk product, niet verbonden aan FranklinCovey Co.
-- Prijzen: vier weken volledig gratis zonder creditcard; daarna gratis blijven plannen, of een abonnement van EUR 14,95 per maand of EUR 119 per jaar voor de AI-coach, agendakoppelingen en volledige geschiedenis
+- Prijzen: de eerste vier weken is alles beschikbaar, zonder creditcard; daarna blijft de weekplanner zonder kosten te gebruiken, en kost het volledige pakket (AI-coach, agendakoppelingen, volledige geschiedenis) EUR 14,95 per maand of EUR 119 per jaar
 - Privacy: gegevens worden niet gebruikt om AI-modellen te trainen, export en verwijdering met één klik, AI-functies volledig uitschakelbaar, geen advertenties en geen tracking
 - Talen: Nederlands en Engels
 - Doelgroep: professionals, ondernemers en iedereen die de week wil plannen vanuit wat echt belangrijk is in plaats van een takenlijst
@@ -19,4 +19,5 @@ Takenlijsten houden bij wat er nog moet. MagilityOne helpt kiezen wat je niet do
 ## Pagina's
 
 - [Homepage](https://magilityone.com/): uitleg van het product en de methode
-- [Probeer gratis](https://app.magilityone.com/start): proefronde zonder account
+- [Weekplanning maken](https://magilityone.com/weekplanning): in vier stappen een weekplanning die rust geeft, met voorbeeld en veelgestelde vragen
+- [Proberen](https://app.magilityone.com/start): proefronde zonder account
