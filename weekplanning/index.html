@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekplanning maken die rust geeft | MagilityOne</title>
+<meta name="description" content="Leer in vier stappen een weekplanning maken die je week rustiger maakt in plaats van voller. Met een concreet voorbeeld en antwoorden op de vragen die iedereen heeft.">
+<link rel="canonical" href="https://magilityone.com/weekplanning">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#F9F8F4">
+<meta property="og:title" content="Weekplanning maken die rust geeft">
+<meta property="og:description" content="In vier stappen een weekplanning die je week rustiger maakt in plaats van voller. Met een concreet voorbeeld.">
+<meta property="og:url" content="https://magilityone.com/weekplanning">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="MagilityOne">
+<meta property="og:image" content="https://magilityone.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://magilityone.com/assets/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "MagilityOne", "item": "https://magilityone.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Weekplanning maken", "item": "https://magilityone.com/weekplanning"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Hoe maak ik een goede weekplanning?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Begin niet bij je taken maar bij jezelf. Kijk eerst kort terug op de afgelopen week, kies dan een handvol dingen die deze week echt tellen, zet daar concrete tijd voor in je agenda naast de afspraken die er al staan, en blik aan het eind van de week even terug. Twintig minuten aan het begin van je week is genoeg, op zondagavond of op maandagochtend."}
+    },
+    {
+      "@type": "Question",
+      "name": "Hoeveel tijd kost een weekplanning maken?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Ongeveer twintig minuten per week. Dat lijkt extra werk, maar die twintig minuten zorgen ervoor dat de rest van je week anders loopt: je weet wat telt en wat kan wachten."}
+    },
+    {
+      "@type": "Question",
+      "name": "Wat als mijn week toch anders loopt dan gepland?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Dat gebeurt vrijwel elke week en dat is geen mislukking. Een weekplanning is geen contract maar een kompas: als er iets tussenkomt, zie je meteen wat je verschuift en wat je laat staan. Dat is precies het verschil met een week die je overkomt."}
+    },
+    {
+      "@type": "Question",
+      "name": "Kan ik een weekplanning ook op papier maken?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Ja. De vier stappen werken ook met pen en papier. Een app als MagilityOne helpt vooral bij het volhouden: je agenda staat er al in, je rollen en doelen bewaren zichzelf, en aan het eind van de week zie je het patroon dat je op papier niet ziet."}
+    },
+    {
+      "@type": "Question",
+      "name": "Wat is het verschil tussen een weekplanning en een takenlijst?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Een takenlijst verzamelt alles wat er moet gebeuren en wordt vanzelf langer. Een weekplanning begint bij de vraag wat er deze week echt toe doet, en geeft dat een plek in je agenda. Je kiest dus ook wat je niet doet, en dat is waar de rust vandaan komt."}
+    }
+  ]
+}
+</script>
+<style>
+  @font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-normal.woff2) format("woff2")}
+  @font-face{font-family:"Instrument Sans";font-style:italic;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-italic.woff2) format("woff2")}
+  @font-face{font-family:"Instrument Sans";font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-500-normal.woff2) format("woff2")}
+  @font-face{font-family:"Instrument Sans";font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-600-normal.woff2) format("woff2")}
+  @font-face{font-family:"Instrument Sans";font-style:normal;font-weight:700;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-700-normal.woff2) format("woff2")}
+  :root{
+    --papier:#FAF8F2;
+    --papier-diep:#F2EFE5;
+    --inkt:#1B1915;
+    --inkt-70:#4A453B;
+    --inkt-45:#7B7466;
+    --lijn:#E4DED0;
+    --lijn-zacht:#EDE8DB;
+    --oker:#A67C1C;
+    --geel:#F8CD5F;
+    --groei:#0F7B5A;
+    --ondernemer:#3A4CB8;
+    --partner:#B4571A;
+    --prof:#A32D5B;
+    --sans:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    --uit:cubic-bezier(.22,1,.36,1);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--papier);color:var(--inkt);
+    font-family:var(--sans);font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+
+  .korrel{
+    position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/></filter><rect width='140' height='140' filter='url(%23n)'/></svg>");
+  }
+  .laag{position:relative;z-index:1}
+
+  header.top{
+    position:sticky;top:0;z-index:60;
+    background:rgba(250,248,242,0);
+    border-bottom:1px solid transparent;
+    transition:background .3s ease, border-color .3s ease, backdrop-filter .3s ease;
+  }
+  header.top.vast{background:rgba(250,248,242,.9);backdrop-filter:blur(12px);border-bottom-color:var(--lijn-zacht)}
+  .topbar{display:flex;align-items:center;justify-content:space-between;height:80px;transition:height .3s var(--uit)}
+  header.top.vast .topbar{height:64px}
+  .merk{display:flex;align-items:center;gap:10px;font-size:16px;letter-spacing:-.01em;color:var(--inkt);text-decoration:none}
+  .merkicoon{width:34px;height:34px;border-radius:9px;background:var(--geel);display:flex;align-items:center;justify-content:center;transition:transform .3s var(--uit)}
+  header.top.vast .merkicoon{transform:scale(.86)}
+  .nav{display:flex;align-items:center;gap:26px;font-size:14.5px;color:var(--inkt-70)}
+  .nav a{color:var(--inkt-70);text-decoration:none}
+  .nav a:hover{color:var(--inkt)}
+
+  .knop{
+    display:inline-flex;align-items:center;gap:10px;background:var(--geel);color:var(--inkt);
+    border:0;border-radius:4px;padding:16px 28px;font-family:var(--sans);font-size:15.5px;font-weight:600;
+    letter-spacing:-.005em;cursor:pointer;position:relative;overflow:hidden;text-decoration:none;
+    transition:transform .22s var(--uit), box-shadow .22s ease;
+  }
+  .knop:hover{transform:translateY(-2px);box-shadow:0 10px 24px -12px rgba(166,124,28,.75)}
+  .knop svg{transition:transform .22s var(--uit)}
+  .knop:hover svg{transform:translateX(4px)}
+  .knop.klein{padding:10px 18px;font-size:14px}
+
+  .link{
+    background:none;border:0;padding:0 0 3px;font-family:var(--sans);font-size:15px;
+    color:var(--inkt-70);cursor:pointer;position:relative;text-decoration:none;
+  }
+  .link::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--lijn);transform-origin:left;transition:background .2s ease}
+  .link:hover::after{background:var(--inkt-45)}
+
+  .op{opacity:0;transform:translateY(10px);transition:opacity .55s ease var(--vert,0s), transform .55s var(--uit) var(--vert,0s)}
+  .op.in{opacity:1;transform:none}
+
+  .hero{position:relative;padding:56px 0 72px;overflow:hidden}
+  .bovenschrift{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--oker);margin:0 0 20px;font-weight:700}
+  h1{
+    font-size:clamp(38px,4.2vw,58px);line-height:1.05;letter-spacing:-.032em;
+    font-weight:700;margin:0 0 22px;max-width:17ch;
+  }
+  h1 .zacht{color:var(--inkt-45)}
+  .heroSub{font-size:18.5px;line-height:1.6;color:var(--inkt-70);max-width:48ch;margin:0 0 28px}
+  .heroActies{display:flex;align-items:center;gap:28px;margin-bottom:14px;flex-wrap:wrap}
+  .micro{font-size:13.5px;color:var(--inkt-45)}
+  .micro b{color:var(--inkt-70)}
+
+  .blokrij{display:grid;grid-template-columns:150px minmax(0,1fr);padding:0 0 100px;position:relative}
+  .merkje{position:sticky;top:120px;align-self:start;padding-top:4px}
+  .merkje .nr{font-size:13px;color:var(--oker);letter-spacing:.12em;font-weight:700}
+  .merkje .lb{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkt-45);margin-top:8px;font-weight:700}
+  .blokinhoud{position:relative;padding-left:56px;border-left:1px solid var(--lijn-zacht)}
+
+  h2{font-size:clamp(28px,3.3vw,44px);line-height:1.08;letter-spacing:-.03em;font-weight:700;margin:0 0 24px;max-width:20ch}
+  .proza{font-size:18px;line-height:1.72;color:var(--inkt-70);max-width:60ch}
+  .proza p{margin:0 0 22px}
+  .proza p:last-child{margin-bottom:0}
+  .proza a{color:var(--inkt);text-decoration:underline;text-decoration-color:var(--lijn);text-underline-offset:3px}
+  .proza a:hover{text-decoration-color:var(--oker)}
+  .uitspraak{
+    font-size:27px;line-height:1.32;letter-spacing:-.022em;font-weight:600;
+    color:var(--inkt);max-width:26ch;margin:46px 0 0;padding-left:22px;border-left:3px solid var(--geel);
+  }
+
+  .inleiding{font-size:16.5px;color:var(--inkt-45);margin:0 0 40px;max-width:52ch}
+  .stappen{border-top:1px solid var(--lijn-zacht)}
+  .stap{display:grid;grid-template-columns:64px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--lijn-zacht);align-items:baseline;transition:padding-left .3s var(--uit)}
+  .stap:hover{padding-left:8px}
+  .stap .n{font-size:14px;color:var(--oker);font-weight:700;letter-spacing:.1em}
+  .stap h3{font-size:22px;letter-spacing:-.02em;font-weight:600;margin:0 0 4px}
+  .stap p{margin:0;font-size:15.5px;color:var(--inkt-45);max-width:56ch;line-height:1.6}
+
+  /* Het voorbeeld, in de vormtaal van de app zelf: een echt tijdrooster,
+     eigen blokken gevuld in de rolkleur, externe afspraken als bleke vlakken
+     met een dun kleurrandje links. */
+  .kader{
+    background:#fff;border:1px solid #ECE8DC;border-radius:20px;overflow:hidden;
+    box-shadow:0 30px 60px -35px rgba(27,25,21,.28), 0 2px 6px rgba(27,25,21,.05);
+    margin-top:8px;
+  }
+  .kaderkop{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--lijn-zacht);background:#FDFCF8}
+  .kaderkop .wk{font-size:12.5px;color:var(--inkt-45)}
+  .kaderkop .wknaam{font-size:13.5px;font-weight:600;color:var(--inkt)}
+  .kaderlijf{display:grid;grid-template-columns:200px minmax(0,1fr)}
+  .zijkolom{border-right:1px solid var(--lijn-zacht);padding:22px 20px;background:#FDFCF9}
+  .kopje{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkt-45);margin:0 0 14px;font-weight:700}
+  .rol{display:flex;align-items:center;gap:10px;font-size:13.5px;padding:6px 0;color:var(--inkt-70)}
+  .rol i{width:7px;height:7px;border-radius:50%;flex:none}
+  .doelenlijst{margin-top:26px}
+  .doel{display:flex;gap:10px;font-size:13px;padding:6px 0;color:var(--inkt-70);line-height:1.35}
+  .doel i{width:5px;height:5px;border-radius:50%;background:var(--lijn);flex:none;margin-top:6px}
+
+  .rooster{
+    display:grid;position:relative;
+    grid-template-columns:46px repeat(5,minmax(0,1fr));
+    grid-template-rows:40px repeat(27,20px);
+  }
+  .dagkop{grid-row:1;display:flex;align-items:center;justify-content:center;gap:6px;font-size:11px;letter-spacing:.12em;color:var(--inkt-45);border-bottom:1px solid var(--lijn-zacht)}
+  .dagkop b{color:var(--inkt);font-weight:700}
+  .dagkop.nu{color:var(--inkt);font-weight:700}
+  .dagvlak{grid-row:2 / -1;border-left:1px solid var(--lijn-zacht);
+    background:repeating-linear-gradient(to bottom, transparent 0, transparent 39px, #F2EFE7 39px, #F2EFE7 40px)}
+  .tijd{grid-column:1;font-size:10px;color:var(--inkt-45);text-align:right;padding:2px 8px 0 0;font-variant-numeric:tabular-nums}
+  .abl{
+    margin:1px 3px;padding:3px 7px;border-radius:6px;font-size:11.5px;line-height:1.25;
+    box-shadow:0 5px 12px -7px rgba(27,25,21,.45);z-index:2;overflow:hidden;color:#fff;
+  }
+  .abl b{display:block;font-weight:600}
+  .abl small{display:block;font-size:10px;opacity:.82;margin-top:1px}
+  .abl.groei{background:var(--groei)}
+  .abl.ouder{background:var(--ondernemer)}
+  .abl.partner{background:var(--partner)}
+  .abl.prof{background:var(--prof)}
+  .abl.ext{
+    background:#F1EFE9;border-left:2px solid #CBC5B5;border-radius:8px;
+    color:#6E6A60;box-shadow:none;
+  }
+  .abl.ext small{opacity:.9}
+  .kadervoet{display:flex;align-items:center;gap:11px;padding:15px 20px;border-top:1px solid var(--lijn-zacht);background:#FDFCF8;font-size:13.5px;color:var(--inkt-70)}
+  .kadervoet .vonk{color:var(--oker)}
+  .bijschrift{font-size:14px;color:var(--inkt-45);margin:24px 0 0;max-width:62ch}
+
+  .duo{display:grid;grid-template-columns:1fr 1fr}
+  .duo > div{padding:0 44px 0 0}
+  .duo > div + div{border-left:1px solid var(--lijn-zacht);padding:0 0 0 44px}
+  .duo h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkt-45);margin:0 0 18px;font-weight:700}
+  .duo ul{margin:0;padding:0}
+  .duo li{list-style:none;font-size:16px;color:var(--inkt-70);padding:10px 0;border-bottom:1px solid var(--lijn-zacht);line-height:1.5}
+  .duo li:last-child{border-bottom:0}
+
+  .vraag{padding:20px 0;border-bottom:1px solid var(--lijn-zacht)}
+  .vraag:first-child{border-top:1px solid var(--lijn-zacht)}
+  .vraag h3{font-size:19px;letter-spacing:-.015em;font-weight:600;margin:0 0 7px}
+  .vraag p{margin:0;font-size:15.5px;color:var(--inkt-45);line-height:1.6;max-width:62ch}
+
+  .slot{text-align:center;padding:100px 0 110px}
+  .slot h2{margin:0 auto 22px;max-width:17ch;font-size:clamp(32px,3.8vw,52px)}
+  .garantie{font-size:17px;line-height:1.6;color:var(--inkt-70);max-width:56ch;margin:0 auto 34px}
+  .slot .micro{margin-top:18px}
+
+  footer{border-top:1px solid var(--lijn-zacht);padding:30px 0 36px;font-size:13.5px;color:var(--inkt-45)}
+  .footraster{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+  .footlinks{display:flex;gap:22px}
+  .footlinks a{color:var(--inkt-45);text-decoration:none}
+  .footlinks a:hover{color:var(--inkt-70)}
+  .disclaimer{margin-top:18px;font-size:12.5px;line-height:1.6;color:var(--inkt-45);max-width:78ch}
+
+  @media (max-width:1020px){
+    .blokrij{grid-template-columns:1fr;gap:24px}
+    .merkje{position:static;display:flex;align-items:baseline;gap:14px}
+    .merkje .lb{margin-top:0}
+    .blokinhoud{border-left:0;padding-left:0}
+    .duo{grid-template-columns:1fr;gap:26px}
+    .duo > div,.duo > div + div{padding:0;border-left:0}
+    .kaderlijf{grid-template-columns:1fr}
+    .zijkolom{border-right:0;border-bottom:1px solid var(--lijn-zacht)}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;transition:none !important}
+    .op{opacity:1 !important;transform:none !important}
+  }
+</style>
+</head>
+<body>
+<div class="korrel"></div>
+<div class="laag">
+
+<header class="top" id="top">
+  <div class="wrap topbar">
+    <a class="merk" href="https://magilityone.com/">
+      <span class="merkicoon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#1B1915" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M8 3v4M16 3v4M8 14l3 3 5-6"/></svg></span>
+      <span>Magility<b>One</b></span>
+    </a>
+    <div class="nav">
+      <a href="https://magilityone.com/#prijzen">Prijzen</a>
+      <a href="https://app.magilityone.com/">Inloggen</a>
+      <a class="knop klein" href="https://app.magilityone.com/start">Begin je proefweek</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="bovenschrift op">Weekplanning maken</p>
+    <h1 class="op" style="--vert:.06s">Een weekplanning die rust geeft. <span class="zacht">Geen extra lijstje erbij.</span></h1>
+    <p class="heroSub op" style="--vert:.12s">Je agenda staat vol, vooral met andermans afspraken. Wat echt belangrijk is schuift door naar volgende week, en die is ook al vol. Op deze pagina leer je in vier stappen een weekplanning maken die dat doorbreekt.</p>
+    <div class="heroActies op" style="--vert:.18s">
+      <a class="knop" href="https://app.magilityone.com/start">Begin je proefweek
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1915" stroke-width="2" stroke-linecap="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+      </a>
+      <a class="link" href="#stappen">Lees eerst hoe het werkt</a>
+    </div>
+    <p class="micro op" style="--vert:.24s"><b>Vier weken ervaar je alles</b>, zonder creditcard. Daarna bepaal jij hoe je verder plant: gewoon met de planner, of met alles erbij voor €14,95 per maand of €119 per jaar.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="blokrij">
+    <div class="merkje"><div class="nr">01</div><div class="lb">Herken je dit</div></div>
+    <div class="blokinhoud">
+      <h2 class="op">Druk geweest, en toch het gevoel dat het belangrijkste bleef liggen</h2>
+      <div class="proza op" style="--vert:.08s">
+        <p>De meeste weken beginnen niet met een keuze. Ze beginnen met een volle agenda, een inbox en een to-dolijst die sinds vorige maand alleen maar langer is geworden. Je rent van overleg naar overleg, regelt tussendoor van alles voor thuis, en op vrijdag ben je moe zonder dat je precies kunt zeggen waarvan.</p>
+        <p>Het probleem is niet dat je te weinig doet. Het probleem is dat andermans prioriteiten je week vullen voordat jij er zelf iets over gezegd hebt. Het sporten, dat ene project waar je echt verder mee wilt, de avond met je partner zonder telefoon: het staat nergens, dus het verliest van alles wat wel in de agenda staat.</p>
+        <p>Een goede weekplanning draait dat om. Niet door meer in je week te proppen, maar door eerst te kiezen wat er deze week echt toe doet, en dat als eerste een plek te geven. De rest schikt zich daaromheen. Dat idee komt uit het gedachtegoed van Stephen Covey: geef de grote dingen eerst een plek, anders vult het kleine grind je hele week.</p>
+      </div>
+      <p class="uitspraak op" style="--vert:.14s">Niet meer doen. Wel de juiste dingen, met tijd erbij.</p>
+    </div>
+  </div>
+
+  <div class="blokrij" id="stappen">
+    <div class="merkje"><div class="nr">02</div><div class="lb">De vier stappen</div></div>
+    <div class="blokinhoud">
+      <h2 class="op">Zo maak je een weekplanning, in vier stappen</h2>
+      <p class="inleiding op" style="--vert:.06s">Dit werkt op papier en in een app. Reken op twintig minuten, op een vast moment dat bij je past: zondagavond of maandagochtend, voordat de week je te pakken heeft.</p>
+      <div class="stappen">
+        <div class="stap op" style="--vert:.10s"><div class="n">01</div><div><h3>Kijk terug</h3><p>Neem vijf minuten voor de afgelopen week. Wat werkte, wat schoof door, en waar ging je tijd werkelijk heen? Niet om jezelf een cijfer te geven, maar om de volgende stap eerlijker te maken.</p></div></div>
+
+        <div class="stap op" style="--vert:.16s"><div class="n">02</div><div><h3>Kies wat deze week telt</h3><p>Denk aan de rollen die je vervult: professional, ouder, partner, en die ene rol voor jezelf. Kies per rol hooguit één of twee dingen die deze week echt aandacht verdienen. Meestal kom je op vijf tot zeven punten, en dat is genoeg.</p></div></div>
+        <div class="stap op" style="--vert:.22s"><div class="n">03</div><div><h3>Zet het in je agenda</h3><p>Dit is de stap die de meeste weekplanningen overslaan, en precies waarom ze niet werken. Een voornemen zonder tijdstip verliest het altijd van een afspraak met tijdstip. Reserveer dus concrete blokken, naast wat er al staat. Past het niet, dan zie je dat nu, en niet donderdagavond.</p></div></div>
+        <div class="stap op" style="--vert:.28s"><div class="n">04</div><div><h3>Blik kort terug</h3><p>Aan het eind van de week kijk je vijf minuten terug. Welke keuzes hielden stand, welke sneuvelden, en wat zegt dat over volgende week? Na een paar weken zie je patronen die je nu nog niet ziet.</p></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blokrij">
+    <div class="merkje"><div class="nr">03</div><div class="lb">Voorbeeld</div></div>
+    <div class="blokinhoud">
+      <h2 class="op">Zo ziet een weekplanning eruit</h2>
+      <p class="inleiding op" style="--vert:.06s">Dit is de week van iemand met een drukke baan, een gezin en het voornemen om ook zelf iemand te blijven.</p>
+      <div class="kader op" style="--vert:.1s">
+        <div class="kaderkop">
+          <span class="wknaam">Week 35</span>
+          <span class="wk">maandag 24 tot vrijdag 28 augustus</span>
+        </div>
+        <div class="kaderlijf">
+          <div class="zijkolom">
+            <p class="kopje">Rollen</p>
+            <div class="rol"><i style="background:var(--prof)"></i>Professional</div>
+            <div class="rol"><i style="background:var(--ondernemer)"></i>Ouder</div>
+            <div class="rol"><i style="background:var(--partner)"></i>Partner</div>
+            <div class="rol"><i style="background:var(--groei)"></i>Ik zelf</div>
+            <div class="doelenlijst">
+              <p class="kopje">Deze week</p>
+              <div class="doel"><i></i>Twee keer wandelen in de ochtend</div>
+              <div class="doel"><i></i>Projectplan eindelijk afronden</div>
+              <div class="doel"><i></i>Woensdag naar de wedstrijd van Fien</div>
+              <div class="doel"><i></i>Vrijdagavond samen, zonder telefoon</div>
+            </div>
+          </div>
+          <div class="rooster">
+            <div class="dagkop" style="grid-column:1"></div>
+            <div class="dagkop" style="grid-column:2">MA <b>24</b></div>
+            <div class="dagkop" style="grid-column:3">DI <b>25</b></div>
+            <div class="dagkop" style="grid-column:4">WO <b>26</b></div>
+            <div class="dagkop" style="grid-column:5">DO <b>27</b></div>
+            <div class="dagkop" style="grid-column:6">VR <b>28</b></div>
+
+            <div class="dagvlak" style="grid-column:2"></div>
+            <div class="dagvlak" style="grid-column:3"></div>
+            <div class="dagvlak" style="grid-column:4"></div>
+            <div class="dagvlak" style="grid-column:5"></div>
+            <div class="dagvlak" style="grid-column:6"></div>
+
+            <div class="tijd" style="grid-row:2 / span 2">07:00</div>
+            <div class="tijd" style="grid-row:4 / span 2">08:00</div>
+            <div class="tijd" style="grid-row:6 / span 2">09:00</div>
+            <div class="tijd" style="grid-row:8 / span 2">10:00</div>
+            <div class="tijd" style="grid-row:10 / span 2">11:00</div>
+            <div class="tijd" style="grid-row:12 / span 2">12:00</div>
+            <div class="tijd" style="grid-row:14 / span 2">13:00</div>
+            <div class="tijd" style="grid-row:16 / span 2">14:00</div>
+            <div class="tijd" style="grid-row:18 / span 2">15:00</div>
+            <div class="tijd" style="grid-row:20 / span 2">16:00</div>
+            <div class="tijd" style="grid-row:22 / span 2">17:00</div>
+            <div class="tijd" style="grid-row:24 / span 2">18:00</div>
+            <div class="tijd" style="grid-row:26 / span 2">19:00</div>
+
+            <div class="abl groei" style="grid-column:2;grid-row:2 / span 2"><b>Wandelen</b><small>07:15 · 30 min</small></div>
+            <div class="abl ext" style="grid-column:2;grid-row:7 / span 2"><b>Teamoverleg</b><small>09:30</small></div>
+            <div class="abl prof" style="grid-column:2;grid-row:14 / span 4"><b>Projectplan</b><small>13:00 · deur dicht</small></div>
+
+            <div class="abl ext" style="grid-column:3;grid-row:8 / span 2"><b>Overleg klant</b><small>10:00</small></div>
+            <div class="abl ext" style="grid-column:3;grid-row:14 / span 8"><b>Afspraken</b><small>13:00 · uit je agenda</small></div>
+
+            <div class="abl ext" style="grid-column:4;grid-row:6 / span 1"><b>Standup</b></div>
+            <div class="abl ouder" style="grid-column:4;grid-row:21 / span 3"><b>Wedstrijd Fien</b><small>16:30 · op tijd weg</small></div>
+
+            <div class="abl groei" style="grid-column:5;grid-row:2 / span 2"><b>Wandelen</b><small>07:15 · 30 min</small></div>
+            <div class="abl ext" style="grid-column:5;grid-row:10 / span 2"><b>Presentatie</b><small>11:00</small></div>
+
+            <div class="abl prof" style="grid-column:6;grid-row:8 / span 3"><b>Projectplan af</b><small>10:00 · laatste ronde</small></div>
+            <div class="abl partner" style="grid-column:6;grid-row:27 / span 2"><b>Avond samen</b><small>19:30</small></div>
+          </div>
+        </div>
+        <div class="kadervoet"><span class="vonk">✦</span> De gekleurde blokken zijn zelf gekozen, in de kleur van hun rol. De lichte komen uit de eigen agenda. Samen is dit de hele week, in één oogopslag.</div>
+      </div>
+      <p class="bijschrift op" style="--vert:.14s">Zo ziet je week er in MagilityOne uit. Let op wat er niet staat: geen dertig taken, geen kleurcodes voor urgentie. Vier rollen, vier keuzes, en een agenda die laat zien dat het past. Je bouwt deze week in twintig minuten, met je eigen agenda uit Google of Outlook er al in.</p>
+    </div>
+  </div>
+
+  <div class="blokrij">
+    <div class="merkje"><div class="nr">04</div><div class="lb">Eerlijk</div></div>
+    <div class="blokinhoud">
+      <h2 class="op">Voor wie dit wel en niet werkt</h2>
+      <div class="duo">
+        <div class="op" style="--vert:.06s">
+          <h3>Wel iets voor jou</h3>
+          <ul>
+            <li>Je hebt meer te doen dan er tijd is</li>
+            <li>Je week wordt gevuld door andermans afspraken</li>
+            <li>Je wilt niet harder werken maar bewuster kiezen</li>
+            <li>Twintig minuten aan het begin van je week vind je geen probleem</li>
+          </ul>
+        </div>
+        <div class="op" style="--vert:.14s">
+          <h3>Niet iets voor jou</h3>
+          <ul>
+            <li>Je zoekt een takenlijst of een projectsysteem</li>
+            <li>Je wilt je uren registreren</li>
+            <li>Je wilt elke dag een check-in en punten verdienen</li>
+            <li>Je hoopt dat een app het kiezen voor je doet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blokrij">
+    <div class="merkje"><div class="nr">05</div><div class="lb">Vragen</div></div>
+    <div class="blokinhoud">
+      <h2 class="op">Veelgestelde vragen over weekplanning</h2>
+      <div class="op" style="--vert:.06s">
+        <div class="vraag"><h3>Hoe maak ik een goede weekplanning?</h3><p>Begin niet bij je taken maar bij jezelf. Kijk kort terug op de afgelopen week, kies een handvol dingen die deze week echt tellen, zet daar concrete tijd voor in je agenda, en blik aan het eind van de week even terug. De vier stappen hierboven zijn het hele recept.</p></div>
+        <div class="vraag"><h3>Hoeveel tijd kost dit?</h3><p>Ongeveer twintig minuten per week. Dat lijkt extra werk, maar die twintig minuten zorgen ervoor dat de rest van je week anders loopt: je weet wat telt en wat kan wachten.</p></div>
+        <div class="vraag"><h3>Wat als mijn week toch anders loopt?</h3><p>Dat gebeurt vrijwel elke week, en dat is geen mislukking. Een weekplanning is geen contract maar een kompas. Als er iets tussenkomt zie je meteen wat je verschuift en wat je laat staan. Dat is het verschil met een week die je overkomt.</p></div>
+        <div class="vraag"><h3>Kan dit ook op papier?</h3><p>Ja, de vier stappen werken ook met pen en papier. Een app helpt vooral bij het volhouden: je agenda staat er al in, je rollen en doelen bewaren zichzelf, en aan het eind van de week zie je het patroon dat je op papier niet ziet.</p></div>
+        <div class="vraag"><h3>Waarin verschilt dit van een takenlijst?</h3><p>Een takenlijst verzamelt alles wat er moet gebeuren en wordt vanzelf langer. Een weekplanning begint bij wat er deze week echt toe doet en geeft dat een plek in je agenda. Je kiest dus ook wat je niet doet, en daar komt de rust vandaan.</p></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="slot">
+  <div class="wrap">
+    <h2 class="op">Maak deze week je eerste weekplanning</h2>
+    <p class="garantie op" style="--vert:.08s">MagilityOne neemt je in zes korte stappen mee: je rollen, je keuzes, je agenda. Vier weken lang ervaar je alles, dat zijn vier volle rondes van kiezen, plannen en terugkijken. Genoeg om het patroon te zien dat je week nu stuurt. Daarna bepaal jij hoe je verder gaat: je blijft gewoon plannen, en de coach, je gekoppelde agenda en je hele geschiedenis komen erbij wanneer jij eraan toe bent.</p>
+    <div class="op" style="--vert:.14s">
+      <a class="knop" href="https://app.magilityone.com/start">Begin je proefweek
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1915" stroke-width="2" stroke-linecap="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <p class="micro op" style="--vert:.2s">Vier weken alles ervaren, zonder creditcard · daarna €14,95 per maand of €119 per jaar · of gewoon verder plannen. Altijd opzegbaar.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footraster">
+      <div>MagilityOne, een product van Magility B.V.</div>
+      <div class="footlinks">
+        <a href="https://magilityone.com/">Home</a>
+        <a href="https://magilityone.com/#prijzen">Prijzen</a>
+        <a href="https://www.magility.nl/">Workshops · magility.nl</a>
+        <a href="https://app.magilityone.com/privacy">Privacy</a>
+        <a href="https://app.magilityone.com/cookies">Cookies</a>
+        <a href="https://app.magilityone.com/ai">Zo gebruiken wij AI</a>
+        <a href="https://app.magilityone.com/voorwaarden">Voorwaarden</a>
+        <a href="https://app.magilityone.com/Contact">Contact</a>
+      </div>
+      <div>© 2026 &nbsp;·&nbsp; KvK 95661298</div>
+    </div>
+    <p class="disclaimer">MagilityOne is een onafhankelijk product van Magility B.V. Het bouwt voort op het gedachtegoed van Stephen R. Covey, maar is niet verbonden aan, gesponsord door of goedgekeurd door FranklinCovey Co.</p>
+  </div>
+</footer>
+
+</div>
+
+<script>
+var traag = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+var revealbaar = document.querySelectorAll('.op');
+if ('IntersectionObserver' in window && !traag) {
+  var kijker = new IntersectionObserver(function (items) {
+    items.forEach(function (i) {
+      if (i.isIntersecting) { i.target.classList.add('in'); kijker.unobserve(i.target); }
+    });
+  }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+  revealbaar.forEach(function (el) { kijker.observe(el); });
+} else {
+  revealbaar.forEach(function (el) { el.classList.add('in'); });
+}
+
+var kopbalk = document.getElementById('top');
+window.addEventListener('scroll', function () {
+  kopbalk.classList.toggle('vast', (window.scrollY || 0) > 12);
+}, { passive: true });
+</script>
+</body>
+</html>
