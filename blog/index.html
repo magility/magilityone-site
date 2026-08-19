@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog over weekplanning en keuzes maken | MagilityOne</title>
+<meta name="description" content="Stukken over je week plannen vanuit je rollen, keuzes maken en volhouden. Geschreven vanuit de praktijk, niet vanuit de theorie.">
+<link rel="canonical" href="https://magilityone.com/blog">
+<meta property="og:title" content="Blog over weekplanning en keuzes maken">
+<meta property="og:description" content="Stukken over je week plannen vanuit je rollen, keuzes maken en volhouden. Vanuit de praktijk.">
+<meta property="og:url" content="https://magilityone.com/blog">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="MagilityOne">
+<meta property="og:image" content="https://magilityone.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://magilityone.com/assets/og-image.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/instrument-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "De blog van MagilityOne",
+  "description": "Stukken over je week plannen vanuit je rollen, keuzes maken en volhouden.",
+  "url": "https://magilityone.com/blog",
+  "inLanguage": "nl-NL",
+  "publisher": {"@type": "Organization", "name": "Magility B.V.", "url": "https://magilityone.com/"},
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Waarom je takenlijst nooit leeg raakt",
+      "url": "https://magilityone.com/blog/takenlijst-nooit-leeg",
+      "datePublished": "2026-08-19",
+      "author": {"@type": "Person", "name": "Mark ter Voert"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Big rocks in een week die al vol staat",
+      "url": "https://magilityone.com/blog/big-rocks-volle-week",
+      "datePublished": "2026-08-19",
+      "author": {"@type": "Person", "name": "Mark ter Voert"}
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "MagilityOne", "item": "https://magilityone.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://magilityone.com/blog"}
+  ]
+}
+</script>
+<style>
+  @font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-normal.woff2) format('woff2');}
+  @font-face{font-family:'Instrument Sans';font-style:italic;font-weight:400;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-400-italic.woff2) format('woff2');}
+  @font-face{font-family:'Instrument Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-500-normal.woff2) format('woff2');}
+  @font-face{font-family:'Instrument Sans';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-600-normal.woff2) format('woff2');}
+  @font-face{font-family:'Instrument Sans';font-style:normal;font-weight:700;font-display:swap;src:url(/assets/fonts/instrument-sans-latin-700-normal.woff2) format('woff2');}
+  :root{
+    --papier:#FAF8F2;--papier-diep:#F2EFE5;--inkt:#1B1915;--inkt-70:#4A453B;--inkt-45:#7B7466;
+    --lijn:#E4DED0;--lijn-zacht:#EDE8DB;--oker:#A67C1C;--geel:#F8CD5F;--groei:#0F7B5A;
+    --ondernemer:#3A4CB8;--partner:#B4571A;--prof:#A32D5B;
+    --sans:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    --uit:cubic-bezier(.22,1,.36,1);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--papier);color:var(--inkt);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 40px}
+  .korrel{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/></filter><rect width='140' height='140' filter='url(%23n)'/></svg>");}
+  .laag{position:relative;z-index:1}
+
+  .nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:100;border-radius:999px;
+    display:flex;align-items:center;gap:4px;padding:8px 8px 8px 20px;
+    transition:transform .5s var(--uit);max-width:calc(100vw - 32px);}
+  .glass{background:rgba(255,255,255,.62);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);
+    box-shadow:0 8px 32px rgba(0,0,0,.14),0 1px 2px rgba(0,0,0,.06),inset 0 1px 0 rgba(255,255,255,.55),inset 0 0 0 .5px rgba(0,0,0,.06);}
+  .nav .logo{display:flex;align-items:center;margin-right:14px;white-space:nowrap}
+  .nav .links{display:flex;gap:2px}
+  .nav .links a{font-size:13.5px;font-weight:500;color:var(--inkt-70);text-decoration:none;padding:8px 14px;border-radius:999px;transition:all .18s var(--uit);white-space:nowrap}
+  .nav .links a:hover{background:rgba(31,31,31,.06);color:var(--inkt)}
+  .nav .cta{font-size:13.5px;font-weight:600;color:#fff;background:var(--inkt);padding:9px 18px;border-radius:999px;margin-left:8px;white-space:nowrap;text-decoration:none;display:inline-block;transition:transform .18s var(--uit)}
+  .nav .cta:hover{transform:translateY(-1px)}
+  .nav.hidden-up{transform:translateX(-50%) translateY(-90px)}
+  @media(max-width:860px){.nav .links{display:none}}
+
+  .knop{display:inline-flex;align-items:center;gap:10px;background:var(--geel);color:var(--inkt);border:0;border-radius:4px;
+    padding:15px 26px;font-family:var(--sans);font-size:15px;font-weight:600;text-decoration:none;
+    transition:transform .22s var(--uit), box-shadow .22s ease}
+  .knop:hover{transform:translateY(-2px);box-shadow:0 10px 24px -12px rgba(166,124,28,.75)}
+
+  .hero{padding:128px 0 44px}
+  .bovenschrift{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--oker);margin:0 0 20px;font-weight:700}
+  h1{font-size:clamp(38px,4.2vw,56px);line-height:1.05;letter-spacing:-.032em;font-weight:700;margin:0 0 22px;max-width:16ch}
+  h1 .zacht{color:var(--inkt-45)}
+  .heroSub{font-size:18.5px;line-height:1.6;color:var(--inkt-70);max-width:52ch;margin:0}
+
+  .filters{display:flex;gap:8px;flex-wrap:wrap;padding:34px 0 30px;border-bottom:1px solid var(--lijn)}
+  .chip{font-size:13px;padding:8px 16px;border-radius:999px;border:1px solid var(--lijn);color:var(--inkt-70);
+    background:#fff;display:inline-flex;align-items:center;gap:8px;text-decoration:none;transition:all .18s var(--uit)}
+  .chip:hover{border-color:var(--inkt-45)}
+  .chip i{width:6px;height:6px;border-radius:50%;display:block}
+  .chip.aan{background:var(--inkt);color:#fff;border-color:var(--inkt)}
+  .chip .aantal{color:var(--inkt-45);font-size:12px}
+  .chip.aan .aantal{color:rgba(255,255,255,.55)}
+
+  .uitgelicht{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid #ECE8DC;border-radius:18px;overflow:hidden;
+    background:#fff;margin:40px 0 0;box-shadow:0 30px 60px -38px rgba(27,25,21,.3), 0 2px 6px rgba(27,25,21,.05)}
+  .uitgelicht .tekst{padding:38px 36px 36px}
+  .uitgelicht .merk{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--oker);margin:0 0 18px}
+  .kaartlabel{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;margin:0 0 13px;display:flex;align-items:center;gap:8px}
+  .kaartlabel i{width:7px;height:7px;border-radius:50%;display:block}
+  .uitgelicht h2{font-size:clamp(24px,2.6vw,31px);line-height:1.14;letter-spacing:-.026em;margin:0 0 14px;font-weight:700;max-width:20ch}
+  .uitgelicht h2 a{color:inherit;text-decoration:none}
+  .uitgelicht h2 a:hover{text-decoration:underline;text-decoration-color:var(--lijn);text-underline-offset:4px}
+  .uitgelicht p{font-size:16px;color:var(--inkt-45);margin:0 0 22px;line-height:1.6;max-width:48ch}
+  .meta{font-size:12.5px;color:var(--inkt-45);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .meta b{color:var(--inkt-70);font-weight:600}
+
+  .voorbeeldweek{background:linear-gradient(155deg,#F6F3EA,#EAE5D7);border-left:1px solid var(--lijn-zacht);
+    padding:26px;display:flex;align-items:center;justify-content:center}
+  .mini{width:100%;max-width:300px;background:#fff;border:1px solid #ECE8DC;border-radius:12px;overflow:hidden;
+    box-shadow:0 16px 34px -22px rgba(27,25,21,.4)}
+  .minikop{padding:9px 12px;border-bottom:1px solid var(--lijn-zacht);background:#FDFCF8;font-size:11px;color:var(--inkt-45)}
+  .minirooster{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(9,13px);gap:0;padding:8px;position:relative}
+  .minidag{grid-row:1 / -1;border-left:1px solid #F1EEE6}
+  .mb{border-radius:3px;margin:1px;z-index:2}
+  .mb.a{background:var(--groei)}
+  .mb.b{background:var(--ondernemer)}
+  .mb.c{background:var(--prof)}
+  .mb.d{background:var(--partner)}
+  .mb.e{background:#F1EFE9;border-left:2px solid #CBC5B5}
+
+  .raster{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #ECE8DC;border-radius:18px;overflow:hidden;
+    background:#fff;margin:26px 0 0;box-shadow:0 24px 48px -38px rgba(27,25,21,.26)}
+  .kaart{padding:28px 26px 26px;border-right:1px solid var(--lijn-zacht);display:flex;flex-direction:column}
+  .kaart:last-child{border-right:0}
+  .kaart h3{font-size:19px;line-height:1.24;letter-spacing:-.02em;margin:0 0 10px;font-weight:600}
+  .kaart h3 a{color:inherit;text-decoration:none}
+  .kaart h3 a:hover{text-decoration:underline;text-decoration-color:var(--lijn);text-underline-offset:3px}
+  .kaart p{font-size:14.5px;color:var(--inkt-45);margin:0 0 18px;line-height:1.55;flex:1}
+  .kaart.leeg{background:#FDFCF9}
+  .kaart.leeg h3{color:var(--inkt-45);font-weight:500}
+  .kaart.leeg p{font-size:14px}
+  .binnenkort{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--inkt-45);margin:0 0 13px}
+
+  .belofte{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+    padding:34px 0 0;margin:34px 0 0;border-top:1px solid var(--lijn)}
+  .belofte p{margin:0;font-size:15px;color:var(--inkt-70);max-width:56ch;line-height:1.6}
+  .belofte b{color:var(--inkt)}
+
+  .voetcta{background:var(--papier-diep);border-top:1px solid var(--lijn);margin-top:70px;padding:70px 0 76px;text-align:center}
+  .voetcta h2{font-size:clamp(27px,3.2vw,40px);letter-spacing:-.028em;margin:0 auto 16px;max-width:18ch;font-weight:700;line-height:1.1}
+  .voetcta p{font-size:16.5px;color:var(--inkt-70);max-width:54ch;margin:0 auto 26px;line-height:1.6}
+  .voetcta .micro{font-size:13.5px;color:var(--inkt-45);margin-top:18px}
+
+  footer{background:#1F1F1F;color:rgba(255,255,255,.5);border-top:1px solid rgba(255,255,255,.08);padding:44px 0;font-size:13px}
+  footer a{color:inherit;text-decoration:none}
+  .foot-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+  .foot-links{display:flex;gap:10px 22px;flex-wrap:wrap}
+  .foot-links a:hover{color:#fff}
+
+  @media (max-width:1020px){
+    .wrap{padding:0 22px}
+    .hero{padding-top:104px}
+    .uitgelicht{grid-template-columns:1fr}
+    .voorbeeldweek{border-left:0;border-top:1px solid var(--lijn-zacht);order:-1}
+    .raster{grid-template-columns:1fr}
+    .kaart{border-right:0;border-bottom:1px solid var(--lijn-zacht)}
+    .kaart:last-child{border-bottom:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+</style>
+</head>
+<body>
+<div class="korrel"></div>
+<div class="laag">
+
+<nav class="nav glass" id="nav">
+  <a class="logo" href="/" aria-label="MagilityOne"><img src="/assets/logo-horizontaal.svg" alt="MagilityOne" style="height:26px;width:auto;display:block"></a>
+  <div class="links">
+    <a href="/weekplanning">Weekplanning</a>
+    <a href="/rollen">Rollen</a>
+    <a href="/#prijzen">Prijzen</a>
+  </div>
+  <a class="cta" href="https://app.magilityone.com/start">Probeer de app</a>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <p class="bovenschrift">Blog</p>
+    <h1>Over je week, <span class="zacht">en wat er echt toe doet.</span></h1>
+    <p class="heroSub">Stukken over plannen vanuit je rollen, keuzes maken en volhouden. Geschreven vanuit de praktijk van het begeleiden van mensen, niet vanuit de theorie.</p>
+  </div>
+
+  <div class="filters">
+    <span class="chip aan">Alles <span class="aantal">2</span></span>
+    <a class="chip" href="/weekplanning"><i style="background:var(--groei)"></i>Weekplanning <span class="aantal">1</span></a>
+    <a class="chip" href="/rollen"><i style="background:var(--ondernemer)"></i>Rollen &amp; ondernemen</a>
+    <a class="chip" href="/methode"><i style="background:var(--prof)"></i>De methode <span class="aantal">1</span></a>
+    <a class="chip" href="/missie-en-waarden"><i style="background:var(--partner)"></i>Waarden &amp; richting</a>
+  </div>
+
+  <div class="uitgelicht">
+    <div class="tekst">
+      <p class="merk">Uitgelicht</p>
+      <p class="kaartlabel" style="color:var(--groei)"><i style="background:var(--groei)"></i>Weekplanning</p>
+      <h2><a href="/blog/takenlijst-nooit-leeg">Waarom je takenlijst nooit leeg raakt</a></h2>
+      <p>Een lijst die blijft groeien is geen teken dat je iets fout doet, het is hoe lijsten werken. Het probleem begint pas als je hem gebruikt om je week mee in te delen.</p>
+      <div class="meta"><b>Mark ter Voert</b><span>·</span>7 minuten<span>·</span>19 augustus 2026</div>
+    </div>
+    <div class="voorbeeldweek">
+      <div class="mini" aria-hidden="true">
+        <div class="minikop">Week 35</div>
+        <div class="minirooster">
+          <div class="minidag" style="grid-column:1"></div>
+          <div class="minidag" style="grid-column:2"></div>
+          <div class="minidag" style="grid-column:3"></div>
+          <div class="minidag" style="grid-column:4"></div>
+          <div class="minidag" style="grid-column:5"></div>
+          <div class="mb b" style="grid-column:1;grid-row:1 / span 2"></div>
+          <div class="mb e" style="grid-column:1;grid-row:4 / span 3"></div>
+          <div class="mb a" style="grid-column:2;grid-row:1"></div>
+          <div class="mb e" style="grid-column:2;grid-row:3 / span 4"></div>
+          <div class="mb e" style="grid-column:3;grid-row:2 / span 3"></div>
+          <div class="mb c" style="grid-column:3;grid-row:6 / span 3"></div>
+          <div class="mb a" style="grid-column:4;grid-row:1"></div>
+          <div class="mb b" style="grid-column:4;grid-row:3 / span 2"></div>
+          <div class="mb e" style="grid-column:4;grid-row:6 / span 3"></div>
+          <div class="mb e" style="grid-column:5;grid-row:3 / span 3"></div>
+          <div class="mb d" style="grid-column:5;grid-row:8 / span 2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="raster">
+    <div class="kaart">
+      <p class="kaartlabel" style="color:var(--prof)"><i style="background:var(--prof)"></i>De methode</p>
+      <h3><a href="/blog/big-rocks-volle-week">Big rocks in een week die al vol staat</a></h3>
+      <p>De metafoor van de grote stenen klopt, alleen begint bijna niemand met een lege pot. Drie manieren waarop het alsnog werkt.</p>
+      <div class="meta">6 minuten<span>·</span>19 augustus</div>
+    </div>
+    <div class="kaart leeg">
+      <p class="binnenkort">Volgende week</p>
+      <h3>Hoe je als ondernemer je avonden terugkrijgt</h3>
+      <p>Over werk dat door alles heen lekt, en de ene afspraak met jezelf die dat stopt.</p>
+      <div class="meta">Rollen &amp; ondernemen</div>
+    </div>
+    <div class="kaart leeg">
+      <p class="binnenkort">Daarna</p>
+      <h3>Je kernwaarden bepalen zonder lijstje met mooie woorden</h3>
+      <p>Drie vragen die eerlijker antwoord geven dan welke test dan ook.</p>
+      <div class="meta">Waarden &amp; richting</div>
+    </div>
+  </div>
+
+  <div class="belofte">
+    <p><b>Elke week één nieuw stuk, en nooit meer dan dat.</b> Liever één artikel dat een vraag echt beantwoordt dan zeven die dat half doen. Elk stuk hoort bij een van de vier onderwerpen hierboven en gaat dieper op iets in dat daar alleen genoemd wordt.</p>
+    <a class="knop" href="https://app.magilityone.com/start">Probeer de app
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1915" stroke-width="2" stroke-linecap="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+</div>
+
+<div class="voetcta">
+  <div class="wrap">
+    <h2>Van lezen naar doen</h2>
+    <p>Vier weken ervaar je alles, zonder creditcard. Daarna bepaal jij hoe je verder plant: gewoon met de planner, of met alles erbij.</p>
+    <a class="knop" href="https://app.magilityone.com/start">Begin je eerste week
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1915" stroke-width="2" stroke-linecap="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+    </a>
+    <p class="micro">€14,95 per maand of €119 per jaar · of gewoon verder plannen. Altijd opzegbaar.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap foot-row">
+    <span>© 2026 MagilityOne · Magility B.V. · KvK 95661298 · Nederland</span>
+    <div class="foot-links">
+      <a href="/weekplanning">Weekplanning</a>
+      <a href="/rollen">Rollen</a>
+      <a href="/methode">Methode</a>
+      <a href="/missie-en-waarden">Missie &amp; waarden</a>
+      <a href="https://www.magility.nl/">Workshops · magility.nl</a>
+      <a href="https://app.magilityone.com/privacy">Privacy</a>
+      <a href="https://app.magilityone.com/cookies">Cookies</a>
+      <a href="https://app.magilityone.com/ai">Zo gebruiken wij AI</a>
+      <a href="https://app.magilityone.com/voorwaarden">Voorwaarden</a>
+      <a href="https://app.magilityone.com/Contact">Contact</a>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:22px;font-size:12px;color:rgba(255,255,255,.35);max-width:1200px">MagilityOne is een onafhankelijk product van Magility B.V. Het bouwt voort op het gedachtegoed van Stephen R. Covey, maar is niet verbonden aan, gesponsord door of goedgekeurd door FranklinCovey Co.</div>
+</footer>
+
+</div>
+
+<script>
+var balk = document.getElementById('nav');
+var vorigeY = 0;
+window.addEventListener('scroll', function () {
+  var y = window.scrollY || 0;
+  balk.classList.toggle('hidden-up', y > 600 && y > vorigeY);
+  vorigeY = y;
+}, { passive: true });
+</script>
+</body>
+</html>
