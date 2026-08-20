@@ -9,7 +9,7 @@
 - Methode: weekritme in vier stappen (reflecteer, kies, plan, evalueer), gebaseerd op het gedachtegoed van Stephen Covey; onafhankelijk product, niet verbonden aan FranklinCovey Co.
 - Prijzen: de eerste vier weken is alles beschikbaar, zonder creditcard; daarna blijft de weekplanner zonder kosten te gebruiken, en kost het volledige pakket (AI-coach, agendakoppelingen, volledige geschiedenis) EUR 14,95 per maand of EUR 119 per jaar
 - Privacy: gegevens worden niet gebruikt om AI-modellen te trainen, export en verwijdering met één klik, AI-functies volledig uitschakelbaar, geen advertenties en geen tracking
-- Talen: Nederlands en Engels
+- Talen: Nederlands, Engels en Spaans
 - Doelgroep: professionals, ondernemers en iedereen die de week wil plannen vanuit wat echt belangrijk is in plaats van een takenlijst
 
 ## Wat MagilityOne anders maakt dan een takenlijst
@@ -23,6 +23,7 @@ Takenlijsten houden bij wat er nog moet. MagilityOne helpt kiezen wat je niet do
 - [Werk en privé in balans als ondernemer](https://magilityone.com/rollen): de rollenaanpak voor ondernemers, met een concreet weekvoorbeeld
 - [Weekplanning volgens Covey](https://magilityone.com/methode): big rocks en kwadrant 2 in de praktijk, voor wie het gedachtegoed al kent
 - [Missie en kernwaarden](https://magilityone.com/missie-en-waarden): van je waarden en persoonlijke missie naar wat je deze week doet
+- [Prijzen](https://magilityone.com/prijzen): wat MagilityOne kost, wat het gratis plan bevat en wat er in het volledige pakket zit
 - [Blog](https://magilityone.com/blog): wekelijkse stukken over weekplanning, rollen en keuzes maken
 - [Proberen](https://app.magilityone.com/start): proefronde zonder account
 
