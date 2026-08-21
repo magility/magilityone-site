@@ -20,6 +20,7 @@ Takenlijsten houden bij wat er nog moet. MagilityOne helpt kiezen wat je niet do
 
 - [Homepage](https://magilityone.com/): uitleg van het product en de methode
 - [Weekplanning maken](https://magilityone.com/weekplanning): in vier stappen een weekplanning die rust geeft, met voorbeeld en veelgestelde vragen
+- [Veelgestelde vragen](https://magilityone.com/veelgestelde-vragen): tweeentwintig vragen met antwoord over beginnen met weekplannen, volhouden, hoe de app werkt (webapp, Nederlands, Engels en Spaans, geen meldingen of streaks), wat er met je gegevens gebeurt, wat de AI-coach doet en waar MagilityOne vandaan komt
 - [Werk en privé in balans als ondernemer](https://magilityone.com/rollen): de rollenaanpak voor ondernemers, met een concreet weekvoorbeeld
 - [Weekplanning volgens Covey](https://magilityone.com/methode): big rocks en kwadrant 2 in de praktijk, voor wie het gedachtegoed al kent
 - [Missie en kernwaarden](https://magilityone.com/missie-en-waarden): van je waarden en persoonlijke missie naar wat je deze week doet
