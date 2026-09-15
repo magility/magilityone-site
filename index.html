@@ -460,6 +460,14 @@ h2{font-size:clamp(34px,4.6vw,58px);font-weight:700;}
 .fc2.show{animation-delay:1.2s;}
 .fc3.show{animation-delay:2.3s;}
 @media(max-width:1100px){.float-card{display:none;}}
+/* Tussen 1101px en 1320px is er naast de stage geen 40px over, dus vielen de
+   zwevende kaarten deels buiten het scherm en sneed html{overflow-x:clip} ze af.
+   Binnen die band leggen we ze tegen de rand aan met een kleine marge. */
+@media(min-width:1101px) and (max-width:1320px){
+  .fc1{left:8px;}
+  .fc2{right:8px;}
+  .fc3{left:8px;}
+}
 
 /* ---------- Marquee ---------- */
 .marquee-band{
