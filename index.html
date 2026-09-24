@@ -29,7 +29,18 @@
       "url": "https://magilityone.com/",
       "identifier": "KvK 95661298",
       "founder": {"@id": "https://magilityone.com/#mark"},
+      "brand": {"@id": "https://magilityone.com/#app"},
       "sameAs": ["https://www.magility.nl/", "https://app.magilityone.com/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://magilityone.com/#website",
+      "name": "MagilityOne",
+      "url": "https://magilityone.com/",
+      "inLanguage": "nl-NL",
+      "description": "De site van MagilityOne, de weekplanner waarmee je je week plant vanuit je rollen en je weekdoelen.",
+      "publisher": {"@id": "https://magilityone.com/#org"},
+      "about": {"@id": "https://magilityone.com/#app"}
     },
     {
       "@type": "Person",
@@ -42,10 +53,15 @@
     },
     {
       "@type": "SoftwareApplication",
+      "@id": "https://magilityone.com/#app",
       "name": "MagilityOne",
       "operatingSystem": "Web",
-      "applicationCategory": "LifestyleApplication",
-      "url": "https://app.magilityone.com/",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Weekplanner",
+      "inLanguage": ["nl", "en", "es"],
+      "url": "https://magilityone.com/",
+      "installUrl": "https://app.magilityone.com/",
+      "sameAs": ["https://app.magilityone.com/"],
       "description": "MagilityOne is een weekplanner op basis van de methode van Stephen Covey. Je plant je week vanuit je rollen en doelen, met een AI-coach die meedenkt.",
       "offers": [
         {"@type": "Offer", "price": "0", "priceCurrency": "EUR", "description": "Gratis versie: plannen blijft altijd gratis"},
