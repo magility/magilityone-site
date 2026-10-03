@@ -346,6 +346,7 @@
       <a class="zijlink" href="#wat-de-metafoor-weglaat">Wat de metafoor weglaat</a>
       <a class="zijlink" href="#drie-manieren-waarop-het-alsnog-werkt">Drie manieren waarop het alsnog werkt</a>
       <a class="zijlink" href="#wat-je-deze-week-kunt-doen">Wat je deze week kunt doen</a>
+      <a class="zijlink" href="#veelgestelde-vragen">Veelgestelde vragen</a>
 
       <p class="kopje">Lees ook</p>
       <a class="zijlink" href="/methode/">Weekplanning volgens Covey: eerst je big rocks</a>
@@ -401,14 +402,6 @@ window.addEventListener('scroll', function () {
   balk.classList.toggle('hidden-up', y > 600 && y > vorigeY);
   vorigeY = y;
 }, { passive: true });
-
-var koppen = document.querySelectorAll('.tekst h2');
-var zijlinks = document.querySelectorAll('.zijkant .zijlink');
-for (var i = 0; i < koppen.length && i < 3; i++) {
-  var id = 'kop' + (i + 1);
-  koppen[i].id = id;
-  if (zijlinks[i]) zijlinks[i].setAttribute('href', '#' + id);
-}
 </script>
 </body>
 </html>

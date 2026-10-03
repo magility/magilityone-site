@@ -376,14 +376,6 @@ window.addEventListener('scroll', function () {
   balk.classList.toggle('hidden-up', y > 600 && y > vorigeY);
   vorigeY = y;
 }, { passive: true });
-
-var koppen = document.querySelectorAll('.tekst h2');
-var zijlinks = document.querySelectorAll('.zijkant .zijlink');
-for (var i = 0; i < koppen.length && i < 4; i++) {
-  var id = 'kop' + (i + 1);
-  koppen[i].id = id;
-  if (zijlinks[i]) zijlinks[i].setAttribute('href', '#' + id);
-}
 </script>
 </body>
 </html>
